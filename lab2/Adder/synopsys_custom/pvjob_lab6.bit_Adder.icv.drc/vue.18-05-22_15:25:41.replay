@@ -1,0 +1,15 @@
+# Tue May 22 15:25:41 2018
+
+# icv_vue: RHEL64 M-2017.06-1.3706802 2017/06/19
+
+# Hostname     : linux60514
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue -lay CDesignerLE -load /DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.bit_Adder.icv.drc/bit_Adder.vue -cmdPrint 
+
+vue_loadFile {HiLoadPage} {/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.bit_Adder.icv.drc/bit_Adder.vue}
+vue_select {mainTab} {DRC Errors}
+vue_click {actionClose}
+vue_loadFile {HiLoadPage} {/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.bit_Adder.icv.drc/bit_Adder.vue}
+vue_close {HiMain}

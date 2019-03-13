@@ -1,0 +1,16 @@
+********************************************************************************
+* Library          : lab6
+* Cell             : bit_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt bit_Adder Cin Cout a0 a1 a2 a3 b0 b1 b2 b3 s0 s1 s2 s3
+*.PININFO Cin:I Cout:O a0:I a1:I a2:I a3:I b0:I b1:I b2:I b3:I s0:O s1:O s2:O
+*.PININFO s3:O
+XI3 Cout a3 b3 net32 s3 Full_Adder
+XI2 net32 a2 b2 net31 s2 Full_Adder
+XI1 net31 a1 b1 net33 s1 Full_Adder
+XI0 net33 a0 b0 Cin s0 Full_Adder
+.ends bit_Adder
+

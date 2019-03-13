@@ -1,0 +1,15 @@
+{NETLIST CMOS.net
+{VERSION 2 0 0}
+{CELL CMOS
+{PORT Vin vdd! Vout gnd!}
+{PROP top=1.755000 bottom=-1.450000 left=-0.975000 right=1.075000}
+/*.CELL_INFO ORIGINAL_NAME CMOS */
+{INST M1=n12 {TYPE MOS} {COORD x=0.3450 y=-0.8900}
+{PROP l=0.1000 w=0.4000 nf=1.0000}
+{PIN gnd!=DRN Vin=GATE Vout=SRC gnd!=BULK}}
+{INST M2=p12 {TYPE MOS} {COORD x=0.3450 y=0.6000}
+{PROP l=0.1000 w=1.2000 nf=1.0000}
+{PIN Vout=DRN Vin=GATE vdd!=SRC vdd!=BULK}}
+}
+
+}

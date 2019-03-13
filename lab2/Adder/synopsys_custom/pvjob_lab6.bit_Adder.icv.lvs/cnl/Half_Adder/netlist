@@ -1,0 +1,13 @@
+********************************************************************************
+* Library          : lab6
+* Cell             : Half_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt Half_Adder c s x y
+*.PININFO c:O s:O x:I y:I
+XI5 y x s XOR
+XI4 y x c AND
+.ends Half_Adder
+

@@ -1,0 +1,57 @@
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Removing old database /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.stage.icv.lvs/TOPCELLNAME_err/PYDB_stage
+Listening for connections on port 7413
+PYDB_Server Started on host linux60514, Tue 06/05/2018 12:21:33
+Client linux60514(17421):7 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Client linux60514(17463):13 connected (2 total clients)
+Client linux60514(17464):14 connected (3 total clients)
+Client linux60514(17464):14 disconnected (2 clients remain)
+Client linux60514(17464):14 connected (3 total clients)
+Client linux60514(17464):14 disconnected (2 clients remain)
+Client linux60514(17463):13 disconnected (1 client remains)
+Generating /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.stage.icv.lvs/stage.LAYOUT_ERRORS
+  Generation Time=0:00:00  User=0.01 Sys=0.00 Mem=0.507
+Shutdown requested by client linux60514(17421):7
+0 clients remain connected
+Overall server Time=0:00:08  User=0.04 Sys=0.04 Mem=0.507 SQLite=6.523 Unpooled=0.047
+
+                                  PYDB_Server 
+
+           Version M-2017.06-1 for linux64 - Jun 19, 2017 cl#3706802
+
+                    Copyright (c) 2007 - 2017 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+
+variable width coordinate support enabled.
+Listening for connections on port 8295
+PYDB_Server Started on host linux60514, Tue 06/05/2018 12:21:45
+Client linux60514(17549):6 connected (1 total client)
+Verified current licenses.
+SQLite page_size=65536
+SQLite cache_size=65536
+SQLite mmap_size=0
+SQLite journal_mode=OFF
+SQLite version 3.10.0
+Shutdown requested by client linux60514(17549):6
+0 clients remain connected
+Overall server Time=0:00:06  User=0.02 Sys=0.00 Mem=0.359 SQLite=6.459 Unpooled=0.043

@@ -1,0 +1,5 @@
+[12:21:30.11] /m Information: "Starting netlisting for design "project/stage/schematic"..."
+               (NETLISTING-010)
+[12:21:30.15] /o No Design Integrity rule violations found in "project/stage/schematic"
+[12:21:30.23] /m Information: "Netlisting design "project/stage/schematic" finished
+               successfully." (NETLISTING-012)

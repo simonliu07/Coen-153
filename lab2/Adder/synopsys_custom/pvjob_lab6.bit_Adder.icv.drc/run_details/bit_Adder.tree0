@@ -1,0 +1,399 @@
+*** bit_Adder		Tue May 22 15:33:19 2018
+
+PRE_TREE
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "bit_Adder".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         5
+	Unique cells		=         9
+	Hierarchical placements	=        58
+	Total design placements	=       319
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=      3526
+	SREF placements		=       319
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=       256
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAED_PDK_90.VIA12.layout       3       3       0       0     166    USED
+ SAED_PDK_90.nmos4t.layout      11      11       0       0      60    USED
+ Half_Adder               24      14      10       0       8    USED
+ SAED_PDK_90.pmos4t.layout      18      18       0       0      60    USED
+ Full_Adder               36      27       9       0       4    USED
+ bit_Adder                38      28      10       0       1    USED
+ Adder.OR.layout          58      50       8       0       4    USED
+ Adder.XOR.layout         64      52      12       0       8    USED
+ Adder.AND.layout         61      53       8       0       8    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ bit_Adder                 1      28      10       0      38    USED
+ Adder.OR.layout           4      50       8       0      58    USED
+ Full_Adder                4      27       9       0      36    USED
+ Half_Adder                8      14      10       0      24    USED
+ Adder.AND.layout          8      53       8       0      61    USED
+ Adder.XOR.layout          8      52      12       0      64    USED
+ SAED_PDK_90.nmos4t.layout      60      11       0       0      11    USED
+ SAED_PDK_90.pmos4t.layout      60      18       0       0      18    USED
+ SAED_PDK_90.VIA12.layout     166       3       0       0       3    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "bit_Adder".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+bit_Adder				      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ Full_Adder				      Level=1  Count=      4       4       0    4    0    0    0    0    0    0    0
+  Adder.OR.layout			      Level=2  Count=      1       1       0    1    0    0    0    0    0    0    0
+   SAED_PDK_90.VIA12.layout		      Level=3  Count=      2       2       0    2    0    0    0    0    0    0    0
+   SAED_PDK_90.nmos4t.layout		      Level=3  Count=      3       3       0    2    0    0    0    0    0    1    0
+   SAED_PDK_90.pmos4t.layout		      Level=3  Count=      3       3       0    2    0    0    0    0    0    1    0
+  Half_Adder				      Level=2  Count=      2       2       0    2    0    0    0    0    0    0    0
+   Adder.AND.layout			      Level=3  Count=      1       1       0    1    0    0    0    0    0    0    0
+    SAED_PDK_90.VIA12.layout		      Level=4  Count=      2       2       0    2    0    0    0    0    0    0    0
+    SAED_PDK_90.nmos4t.layout		      Level=4  Count=      3       3       0    3    0    0    0    0    0    0    0
+    SAED_PDK_90.pmos4t.layout		      Level=4  Count=      3       3       0    1    0    0    0    0    0    2    0
+   Adder.XOR.layout			      Level=3  Count=      1       1       0    1    0    0    0    0    0    0    0
+    SAED_PDK_90.VIA12.layout		      Level=4  Count=      6       6       0    0    5    0    0    0    0    0    1
+    SAED_PDK_90.nmos4t.layout		      Level=4  Count=      3       3       0    2    0    0    0    0    0    1    0
+    SAED_PDK_90.pmos4t.layout		      Level=4  Count=      3       3       0    1    0    0    0    0    0    2    0
+   SAED_PDK_90.VIA12.layout		      Level=3  Count=      8       8       0    8    0    0    0    0    0    0    0
+  SAED_PDK_90.VIA12.layout		      Level=2  Count=      6       6       0    6    0    0    0    0    0    0    0
+ SAED_PDK_90.VIA12.layout		      Level=1  Count=      6       6       0    6    0    0    0    0    0    0    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = bit_Adder
+	Cell Status		= USED
+	OPENACCESS Library	= lab6
+	OPENACCESS Cell Name	= bit_Adder
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.090, 0.095) (75.825, 6.130)
+	Cell Area		= 457.06
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=       10	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       28
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ M1i              11:0    M1              drawing            21/0    (0.55, 0.10) (75.81, 6.13)      5.35
+ M2i              13:0    M2              drawing             7/0    (10.58, 4.04) (67.66, 6.13)      2.00
+
+CELL = Full_Adder
+	Cell Status		= USED
+	OPENACCESS Library	= lab6
+	OPENACCESS Cell Name	= Full_Adder
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.155, 0.090) (18.975, 6.060)
+	Cell Area		= 112.36
+	Hierarchical Placements	=        4
+	Flat Placements		=        4
+	SREFS			=        9	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       27
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ M1i              11:0    M1              drawing            16/0    (0.36, 0.09) (18.98, 5.54)      1.89
+ M2i              13:0    M2              drawing            11/0    (3.21, 1.96) (18.29, 6.06)      3.95
+
+CELL = SAED_PDK_90.VIA12.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= VIA12
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.120, -0.075) (0.120, 0.075)
+	Cell Area		= 0.04
+	Hierarchical Placements	=       30
+	Flat Placements		=      166
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      1/1
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ M1i              11:0    M1              drawing             1/0    (-0.12, -0.07) (0.12, 0.07)      0.04
+ VIA1i            12:0    VIA1            drawing             1/0    (-0.07, -0.07) (0.07, 0.07)      0.02
+ M2i              13:0    M2              drawing             1/0    (-0.12, -0.07) (0.12, 0.07)      0.04
+
+CELL = Half_Adder
+	Cell Status		= USED
+	OPENACCESS Library	= lab6
+	OPENACCESS Cell Name	= Half_Adder
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.035, 0.070) (7.240, 4.830)
+	Cell Area		= 34.30
+	Hierarchical Placements	=        2
+	Flat Placements		=        8
+	SREFS			=       10	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       14
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ M1i              11:0    M1              drawing             6/0    (0.04, 0.07) (7.24, 4.38)      2.09
+ M2i              13:0    M2              drawing             8/0    (1.34, 2.00) (7.00, 4.83)      2.15
+
+CELL = Adder.OR.layout
+	Cell Status		= USED
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= OR
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.195, -3.580) (3.685, 0.130)
+	Cell Area		= 12.95
+	Hierarchical Placements	=        1
+	Flat Placements		=        4
+	SREFS			=        8	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       50
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (0.20, -2.04) (1.04, -0.14)      1.61
+ DIFFi             3:0    DIFF            drawing             6/0    (0.34, -3.29) (2.77, -0.40)      0.60
+ PIMPi             4:0    PIMP            drawing             3/0    (0.20, -3.43) (3.69, -0.05)      1.59
+ NIMPi             5:0    NIMP            drawing             3/0    (0.20, -3.43) (3.69, -0.14)      1.62
+ POi              10:0    PO              drawing             3/0    (1.58, -2.62) (3.15, -1.98)      0.19
+ M1i              11:0    M1              drawing            26/0    (0.20, -3.58) (3.69, 0.13)      3.02
+ M2i              13:0    M2              drawing             4/0    (3.21, -2.96) (3.46, -1.65)      0.20
+ COi              26:0    CO              drawing             4/0    (0.43, -3.19) (0.89, -0.47)      0.07
+
+CELL = Adder.AND.layout
+	Cell Status		= USED
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= AND
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.795, -3.580) (2.440, 0.105)
+	Cell Area		= 11.92
+	Hierarchical Placements	=        1
+	Flat Placements		=        8
+	SREFS			=        8	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       53
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (-0.80, -2.04) (0.05, -0.14)      1.61
+ DIFFi             3:0    DIFF            drawing             4/0    (-0.65, -3.29) (1.52, -0.40)      0.56
+ PIMPi             4:0    PIMP            drawing             3/0    (-0.80, -3.43) (2.44, -0.05)      1.60
+ NIMPi             5:0    NIMP            drawing             3/0    (-0.80, -3.43) (2.44, -0.14)      1.62
+ POi              10:0    PO              drawing             3/0    (0.59, -2.62) (1.90, -1.97)      0.19
+ M1i              11:0    M1              drawing            26/0    (-0.80, -3.58) (2.44, 0.10)      3.19
+ M2i              13:0    M2              drawing             4/0    (1.97, -2.95) (2.21, -1.64)      0.18
+ COi              26:0    CO              drawing             4/0    (-0.56, -3.19) (-0.10, -0.47)      0.07
+ M1PIN            31:0    M1PIN           drawing             4/0    (0.58, -3.58) (2.27, 0.10)      0.07
+ M2PIN            32:0    M2PIN           drawing             1/0    (2.03, -2.19) (2.16, -2.06)      0.02
+
+CELL = Adder.XOR.layout
+	Cell Status		= USED
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= XOR
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.395, -3.580) (4.355, 0.105)
+	Cell Area		= 14.59
+	Hierarchical Placements	=        1
+	Flat Placements		=        8
+	SREFS			=       12	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       52
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (0.40, -2.04) (1.24, -0.14)      1.61
+ DIFFi             3:0    DIFF            drawing             4/0    (0.54, -3.29) (2.24, -0.40)      0.57
+ PIMPi             4:0    PIMP            drawing             4/0    (0.40, -3.43) (4.36, -0.05)      1.99
+ NIMPi             5:0    NIMP            drawing             4/0    (0.40, -3.43) (4.36, -0.14)      1.86
+ POi              10:0    PO              drawing             3/0    (1.78, -2.65) (3.81, -1.96)      0.16
+ M1i              11:0    M1              drawing            24/0    (0.40, -3.58) (4.36, 0.10)      3.45
+ M2i              13:0    M2              drawing             4/0    (1.52, -3.42) (3.60, -0.05)      1.36
+ COi              26:0    CO              drawing             4/0    (0.64, -3.19) (1.08, -0.47)      0.07
+ M1PIN            31:0    M1PIN           drawing             2/0    (3.85, -3.58) (4.22, 0.10)      0.07
+ M2PIN            32:0    M2PIN           drawing             2/0    (1.77, -0.38) (2.68, -0.24)      0.03
+
+CELL = SAED_PDK_90.nmos4t.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= nmos4t
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= PCell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.440, -0.230) (0.540, 0.950)
+	Cell Area		= 1.16
+	Hierarchical Placements	=        9
+	Flat Placements		=       60
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       11
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ DIFFi             3:0    DIFF            drawing             2/0    (-0.30, 0.00) (0.40, 0.40)      0.28
+ NIMPi             5:0    NIMP            drawing             1/0    (-0.44, -0.23) (0.54, 0.95)      1.16
+ POi              10:0    PO              drawing             2/0    (-0.07, -0.18) (0.17, 0.81)      0.13
+ M1i              11:0    M1              drawing             3/0    (-0.26, 0.00) (0.35, 0.77)      0.14
+ COi              26:0    CO              drawing             3/0    (-0.25, 0.05) (0.35, 0.76)      0.05
+
+CELL = SAED_PDK_90.pmos4t.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= pmos4t
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= PCell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.540, -0.240) (0.640, 1.750)
+	Cell Area		= 2.35
+	Hierarchical Placements	=        9
+	Flat Placements		=       60
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       18
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Layer Usage of Original Cell:
+ Name          Layer:Dtype Layer Name      Purpose Name    Data/Text  Layer Extents (LL,UR)              Lyr Area
+ ---------------  -------  --------------- --------------- --------   ---------------------------------  --------
+ NWELLi            1:0    NWELL           drawing             1/0    (-0.54, -0.24) (0.64, 1.66)      2.24
+ DIFFi             3:0    DIFF            drawing             2/0    (-0.30, 0.00) (0.40, 1.20)      0.84
+ PIMPi             4:0    PIMP            drawing             1/0    (-0.44, -0.23) (0.54, 1.75)      1.94
+ POi              10:0    PO              drawing             2/0    (-0.07, -0.18) (0.17, 1.61)      0.21
+ M1i              11:0    M1              drawing             3/0    (-0.26, 0.00) (0.35, 1.56)      0.37
+ COi              26:0    CO              drawing             9/0    (-0.25, 0.05) (0.35, 1.56)      0.15

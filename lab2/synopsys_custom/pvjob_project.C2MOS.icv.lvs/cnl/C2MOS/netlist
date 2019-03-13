@@ -1,0 +1,19 @@
+********************************************************************************
+* Library          : project
+* Cell             : C2MOS
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt C2MOS CLK CLKb D Qs
+*.PININFO CLK:I CLKb:I D:I Qs:O
+XI1 CLKb CLK net51 net54 stage
+XI0 CLK CLKb D Qm stage
+XI9 net53 net51 CMOS
+XI8 net50 Qs CMOS
+XI5 net54 net50 CMOS
+XI4 net50 net54 CMOS
+XI3 net53 Qm CMOS
+XI2 Qm net53 CMOS
+.ends C2MOS
+

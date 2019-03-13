@@ -1,0 +1,97 @@
+[13:55:46.84] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Thu Apr 26 13:55:45 2018
+              /c Host: linux60521
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2
+              /c 
+[13:55:50.60] /r giShowFrameTabs true
+[13:55:50.60] /r giWindowId 1
+[13:55:50.61] /r giWindowGeometry 1040x800
+[13:55:52.60] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:55:52.60] /# 
+[13:55:52.60] /i dm::openLibraryManager
+[13:55:52.60] /r giWindowId 2
+[13:55:52.60] /r giWindowGeometry 660x600+50+75
+[13:55:52.63] /o oa:0x23ddf680
+[13:55:55.18] /i gi::setCurrentIndex {libs} -index {lab2} -in [gi::getWindows 2]
+[13:55:55.19] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[13:55:55.19] /i gi::setItemSelection {libs} -index {lab2} -in [gi::getWindows 2]
+[13:55:56.18] /i gi::setCurrentIndex {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[13:55:56.20] /i gi::setItemSelection {cells} -index {testbench_inverter} -in [gi::getWindows 2]
+[13:55:56.67] /i gi::setCurrentIndex {cells} -index {CMOS} -in [gi::getWindows 2]
+[13:55:56.71] /i gi::setItemSelection {cells} -index {CMOS} -in [gi::getWindows 2]
+[13:55:59.29] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 2]
+[13:55:59.30] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 2]
+[13:55:59.33] /i gi::executeAction menuPreShow -in [gi::getWindows 2]
+[13:55:59.33] /r giMenuAccess db::getNext [gi::getMenus dmCellViewContextMenu]
+[13:56:01.16] /i gi::executeAction dmOpenWrite -in [gi::getWindows 2]
+[13:56:01.17] /m Information: License 'Basic' checked out. (LICENSE-003)
+[13:56:01.24] /o 	############################################
+[13:56:01.24] /o 	        Synopsys Generic 90nm iPDK          
+[13:56:01.24] /o 	--------------------------------------------
+[13:56:01.24] /o 	Release Date .............. : 11-May-2016    
+[13:56:01.24] /o 	============================================
+[13:56:01.24] /o 	        Recommended Tool Versions           
+[13:56:01.24] /o 	--------------------------------------------
+[13:56:01.24] /o 	Custom Designer ........... : J-2014.12-2    
+[13:56:01.24] /o 	IC Validator .............. : K-2015.12   
+[13:56:01.24] /o 	StarRC..................... : K-2015.12  
+[13:56:01.24] /o 	--------------------------------------------
+[13:56:01.24] /o 	############################################
+[13:56:01.24] /o 
+[13:56:01.25] /o SAED PDK 90: Loaded callbacks
+[13:56:01.26] /o SAED PDK 90: Loaded display resources
+[13:56:01.33] /r giWindowId 3
+[13:56:01.33] /r giWindowGeometry 1632x1035
+[13:56:01.39] /# de::setActiveLPP [de::getLPPs "NWELL drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[13:56:23.47] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+110+154
+[13:56:25.28] /i db::setAttr geometry -of [gi::getFrames 1] -value 1267x943+110+154
+[13:56:25.36] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[13:56:25.36] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[13:56:28.01] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[13:56:28.01] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[13:56:28.01] /i de::select [de::getActiveFigure [gi::getWindows 3] -point {0.528 1.701} -index 0 -intent none]
+[13:56:28.01] /o oa:0x24cc68d0
+[13:57:54.48] /i db::setAttr geometry -of [gi::getFrames 1] -value 1267x943+-223+120
+[13:57:54.93] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[13:57:54.93] /i de::deselectAll [db::getNext [de::getContexts -window 3]]
+[13:57:54.94] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[13:58:05.13] /i de::setActiveLPP [de::getLPPs "DIFF drawing" -from [db::getAttr editDesign -of [de::getContexts -window 3]]]
+[13:59:44.83] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[13:59:44.83] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:00:21.00] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[14:00:21.00] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:00:37.60] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[14:00:37.60] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:00:48.68] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[14:00:48.68] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:00:55.92] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[14:00:55.92] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:01:45.70] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[14:01:45.71] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[14:01:54.56] /i db::setAttr geometry -of [gi::getFrames 1] -value 1267x943+-11+144
+[14:07:02.88] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[14:07:03.18] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+474+419
+[14:07:03.78] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[14:07:03.80] /i exit
+[14:07:03.84] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[14:07:04.14] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[14:07:05.12] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[14:07:05.19] /i gi::setActiveWindow 2
+[14:07:05.19] /i gi::setActiveWindow 2 -raise true
+[14:07:05.40] /i gi::setActiveWindow 1
+[14:07:05.40] /i gi::setActiveWindow 1 -raise true
+[14:07:05.53] /o Shutdown time: Thu Apr 26 14:07:05 2018
+[14:07:05.53] /o Elapsed session real time: 11.31 minutes
+[14:07:05.53] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/logs/ccompiler.sliu2.2018_4_26_135545_21624.log

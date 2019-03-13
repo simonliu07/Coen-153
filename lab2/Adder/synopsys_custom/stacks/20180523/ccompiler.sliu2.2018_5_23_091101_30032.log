@@ -1,0 +1,182 @@
+[09:11:03.79] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Wed May 23 09:11:01 2018
+              /c Host: linux60522
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2/Adder
+              /c 
+[09:11:07.28] /w Warning: In file /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs: Syntax error in file '/DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs' at line '11' : ';' (DATA_MANAGEMENT-014)
+[09:11:07.88] /r giShowFrameTabs true
+[09:11:07.88] /r giWindowId 1
+[09:11:07.89] /r giWindowGeometry 1040x800
+[09:11:20.16] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenlab6FullAdderlayout} -in [gi::getWindows 1]
+[09:11:20.17] /# 
+[09:11:20.17] /i de::open lab6/Full_Adder/layout
+[09:11:20.18] /m Information: License 'Basic' checked out. (LICENSE-003)
+[09:11:20.22] /o 	############################################
+[09:11:20.22] /o 	        Synopsys Generic 90nm iPDK          
+[09:11:20.22] /o 	--------------------------------------------
+[09:11:20.22] /o 	Release Date .............. : 11-May-2016    
+[09:11:20.22] /o 	============================================
+[09:11:20.22] /o 	        Recommended Tool Versions           
+[09:11:20.22] /o 	--------------------------------------------
+[09:11:20.22] /o 	Custom Designer ........... : J-2014.12-2    
+[09:11:20.22] /o 	IC Validator .............. : K-2015.12   
+[09:11:20.22] /o 	StarRC..................... : K-2015.12  
+[09:11:20.22] /o 	--------------------------------------------
+[09:11:20.22] /o 	############################################
+[09:11:20.22] /o 
+[09:11:20.25] /o SAED PDK 90: Loaded callbacks
+[09:11:20.26] /o SAED PDK 90: Loaded display resources
+[09:11:20.36] /r giWindowId 2
+[09:11:20.36] /r giWindowGeometry 1632x1035
+[09:11:20.43] /# de::setActiveLPP [de::getLPPs "NWELL drawing" -from [db::getAttr editDesign -of [de::getContexts -window 2]]]
+[09:11:20.65] /o oa:0x23fed0d0
+[09:11:23.90] /# gi::executeAction lePin -in [gi::getWindows 2]
+[09:11:23.90] /i ile::createPin
+[09:11:23.90] /# gi::setItemSelection {lpps} -index {} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]]
+[09:11:23.90] /# gi::setItemSelection {lpps} -index {DIFF drw} -in [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]]
+[09:11:25.60] /# gi::executeAction leVia -in [gi::getWindows 2]
+[09:11:25.60] /i ile::createVia
+[09:11:25.66] /o oa:0x25293500
+[09:11:32.04] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+5+176
+[09:12:45.68] /# gi::executeAction deAddPoint -in [gi::getWindows 2]
+[09:12:45.68] /i de::addPoint {11.197 7.19} -context [db::getNext [de::getContexts -window 2]]
+[09:12:45.91] /# gi::executeAction leDisplayAllLevels -in [gi::getWindows 2]
+[09:12:45.91] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 2]]
+[09:12:47.87] /o oa:0x24d3f3b0
+[09:13:46.37] /# gi::executeAction deCanvasPanWest -in [gi::getWindows 2]
+[09:13:46.37] /i de::pan -window [gi::getWindows 2] -direction W -multiplier 0.5
+[09:13:46.37] /o {-11.598 -5.662} {9.478 11.818}
+[09:13:47.19] /# gi::executeAction deCanvasPanWest -in [gi::getWindows 2]
+[09:13:47.19] /i de::pan -window [gi::getWindows 2] -direction W -multiplier 0.5
+[09:13:47.20] /o {-22.149 -5.662} {-1.073 11.818}
+[09:13:47.74] /# gi::executeAction deCanvasPanEast -in [gi::getWindows 2]
+[09:13:47.74] /i de::pan -window [gi::getWindows 2] -direction E -multiplier 0.5
+[09:13:47.74] /o {-11.598 -5.662} {9.478 11.818}
+[09:13:48.90] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[09:13:48.90] /i de::startDrag {4.639 4.334} -context [db::getNext [de::getContexts -window 2]]
+[09:13:49.39] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:13:49.39] /i de::endDrag {-2.105 3.303} -context [db::getNext [de::getContexts -window 2]]
+[09:13:50.19] /# gi::executeAction deAbortCommand -in [gi::getWindows 2]
+[09:13:50.19] /i de::abortCommand -context [db::getNext [de::getContexts -window 2]]
+[09:13:50.57] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:50.57] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:50.99] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:50.99] /i de::deselectAll [db::getNext [de::getContexts -window 2]]
+[09:13:50.99] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {3.422 6} -index 0 -intent none]
+[09:13:50.99] /o oa:0x23fe06f0
+[09:13:51.67] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:51.67] /i de::deselectAll [db::getNext [de::getContexts -window 2]]
+[09:13:51.67] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:52.06] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:52.06] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:52.22] /w Warning: Nothing is bound to the 'Button1-Double' in the current active set. (WINDOW-015)
+[09:13:54.19] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:54.19] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:54.63] /# gi::executeAction deSelectByWindow -in [gi::getWindows 2]
+[09:13:54.63] /i db::setPrefValue deSelectMode -value Replace -scope [db::getScopes [db::getNext [de::getContexts -window 2]]]; ide::selectByRegion -region rectangle -point {1.785 7.215} 
+[09:13:54.73] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:13:54.73] /i de::endDrag {-4.141 6.926} -context [db::getNext [de::getContexts -window 2]]
+[09:13:55.16] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:55.16] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:55.31] /w Warning: Nothing is bound to the 'Button1-Double' in the current active set. (WINDOW-015)
+[09:13:57.03] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[09:13:57.03] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 2]]]
+[09:13:57.34] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {-1.496 4.096} -index 0 -intent none]
+[09:13:57.34] /o oa:0x25298500
+[09:13:58.54] /# gi::executeAction leDelete -in [gi::getWindows 2]
+[09:13:58.54] /i ile::delete
+[09:14:00.01] /# gi::executeAction dePan -in [gi::getWindows 2]
+[09:14:00.01] /i ide::pan 2
+[09:14:00.67] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[09:14:00.67] /i de::startDrag {5.379 4.863} -context [db::getNext [de::getContexts -window 2]]
+[09:14:01.07] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:14:01.07] /i de::endDrag {5.379 4.863} -context [db::getNext [de::getContexts -window 2]]
+[09:14:01.07] /r dePanToPoint {5.101 3.104}
+[09:14:01.35] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[09:14:01.35] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {5.749 4.757}
+[09:14:01.35] /o {0.156 -0.439} {10.694 8.301}
+[09:14:01.43] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[09:14:01.43] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {5.749 4.757}
+[09:14:01.43] /o {2.953 2.159} {8.222 6.529}
+[09:14:02.07] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[09:14:02.07] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {5.749 4.757}
+[09:14:02.08] /o {0.156 -0.439} {10.694 8.301}
+[09:14:04.27] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[09:14:04.27] /i de::startDrag {6.133 4.876} -context [db::getNext [de::getContexts -window 2]]
+[09:14:11.87] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:14:11.87] /i de::endDrag {6.014 4.85} -context [db::getNext [de::getContexts -window 2]]
+[09:14:11.87] /r dePanToPoint {9.378 4.79}
+[09:14:12.36] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[09:14:12.36] /i de::startDrag {13.206 5.881} -context [db::getNext [de::getContexts -window 2]]
+[09:14:13.84] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:14:13.84] /i de::endDrag {13.206 5.881} -context [db::getNext [de::getContexts -window 2]]
+[09:14:13.84] /r dePanToPoint {9.709 5.107}
+[09:14:14.38] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[09:14:14.38] /i de::startDrag {6.701 5.617} -context [db::getNext [de::getContexts -window 2]]
+[09:14:15.43] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[09:14:15.43] /i de::endDrag {6.701 5.617} -context [db::getNext [de::getContexts -window 2]]
+[09:14:15.43] /r dePanToPoint {4.063 3.666}
+[09:14:36.36] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[09:14:36.39] /r giDialog gi::setActiveDialog [gi::getDialogs {deCloseDesign} -parent [gi::getWindows 2]]
+[09:14:36.69] /r giDialog db::setAttr geometry -of [gi::getDialogs {deCloseDesign} -parent [gi::getWindows 2]] -value 421x86+315+421
+[09:14:38.78] /r giDialog gi::pressButton {discard} -in [gi::getDialogs {deCloseDesign} -parent [gi::getWindows 2]]
+[09:14:38.85] /i gi::setActiveWindow 1
+[09:14:38.85] /i gi::setActiveWindow 1 -raise true
+[09:14:43.21] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[09:14:43.21] /# 
+[09:14:43.21] /i dm::openLibraryManager
+[09:14:43.21] /r giWindowId 3
+[09:14:43.21] /r giWindowGeometry 660x600+50+75
+[09:14:43.27] /o oa:0x24dd0490
+[09:14:43.37] /i gi::setSectionSizes {libs} -values {247} -in [gi::getWindows 3]
+[09:14:44.20] /i gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 3]
+[09:14:44.23] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 3]
+[09:14:44.23] /i gi::setItemSelection {libs} -index {basic} -in [gi::getWindows 3]
+[09:14:44.69] /i gi::setCurrentIndex {libs} -index {lab6} -in [gi::getWindows 3]
+[09:14:44.72] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 3]
+[09:14:44.72] /i gi::setItemSelection {libs} -index {lab6} -in [gi::getWindows 3]
+[09:14:47.03] /i gi::setCurrentIndex {cells} -index {Half_Adder} -in [gi::getWindows 3]
+[09:14:47.09] /i gi::setItemSelection {cells} -index {Half_Adder} -in [gi::getWindows 3]
+[09:14:48.16] /i gi::setCurrentIndex {views} -index {layout} -in [gi::getWindows 3]
+[09:14:48.17] /i gi::setItemSelection {views} -index {layout} -in [gi::getWindows 3]
+[09:14:48.45] /i gi::executeAction dmOpen -in [gi::getWindows 3]
+[09:14:48.57] /r giWindowId 4
+[09:14:48.57] /r giWindowGeometry 1632x1035
+[09:14:48.64] /# de::setActiveLPP [de::getLPPs "NWELL drawing" -from [db::getAttr editDesign -of [de::getContexts -window 4]]]
+[09:14:51.16] /# gi::executeAction leDisplayAllLevels -in [gi::getWindows 4]
+[09:14:51.16] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 4]]
+[09:14:51.25] /o oa:0x2492dec0
+[09:15:54.80] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+308+124
+              /o Application terminated: XLib fatal IO error (XIOHandler)
+              /c Stack Dump: VERSION M-2017.03-SP1-1 CONFIG 3718339 DATE Wed May 23 09:11:01 2018
+              /c Frame 0. libX11.so.6: _XIOError + 0x4e
+              /c Frame 1. libX11.so.6: _XEventsQueued + 0x7d
+              /c Frame 2. libX11.so.6: XEventsQueued + 0x4b
+              /c Frame 3. QPaintDevice::devType() const + 0x565c
+              /c Frame 4. libglib-2.0.so.0: g_main_context_check + 0x1e9
+              /c Frame 5. /lib64/libglib-2.0.so.0 ::0x7f0d69b06730 + 0x3c0
+              /c Frame 6. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+              /c Frame 7. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x64
+              /c Frame 8. QPaintDevice::devType() const + 0x5bd6
+              /c Frame 9. QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x31
+              /c Frame 10. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0x185
+              /c Frame 11. QCoreApplication::exec() + 0x89
+              /c Frame 12. 0x16b7b97 SNPSee_002365a670bbd5d0a7c56191a475a3ee632fcc3a9fd6c1d60707b94db351293835df6d970cefab6fb6155797a49e5eb7 + 0xbd7
+              /c Frame 13. custom_compiler: main + 0xf7
+              /c Frame 14. libc.so.6: __libc_start_main + 0xf5
+              /c Frame 15. /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler ::0x16a7be5 + 0x29
+              /c 
+              /e Error: The application was unexpectedly terminated.
+              /c See the session log file for recovery details. (SHUT_DOWN-001)

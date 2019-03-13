@@ -1,0 +1,83 @@
+[13:45:51.36] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue May 15 13:45:49 2018
+              /c Host: linux60516
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2/Adder
+              /c 
+[13:45:53.98] /w Warning: In file /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs: Unable to open library four#2dbit_adder at path /DCNFS/users/student/sliu2/coen153/lab2/Adder/four#2dbit_adder : No access permission. (DATA_MANAGEMENT-014)
+[13:45:54.30] /r giShowFrameTabs true
+[13:45:54.30] /r giWindowId 1
+[13:45:54.30] /r giWindowGeometry 1040x800
+[13:45:55.64] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/dmNewCellView} -in [gi::getWindows 1]
+[13:45:55.65] /# 
+[13:45:55.65] /i dm::showNewCellView
+[13:45:55.68] /o oa:0x2360f410
+[13:45:55.70] /i gi::setActiveDialog [gi::getDialogs {dmNewCellView}]
+[13:45:55.99] /i db::setAttr geometry -of [gi::getDialogs {dmNewCellView}] -value 588x309+666+445
+[13:45:58.16] /i gi::pressButton {cancel} -in [gi::getDialogs {dmNewCellView}]
+[13:46:01.66] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[13:46:01.66] /# 
+[13:46:01.67] /i dm::openLibraryManager
+[13:46:01.67] /r giWindowId 2
+[13:46:01.67] /r giWindowGeometry 660x600+50+75
+[13:46:01.72] /o oa:0x24521370
+[13:46:04.32] /i gi::setCurrentIndex {libs} -index {Adder} -in [gi::getWindows 2]
+[13:46:04.33] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[13:46:04.34] /i gi::setItemSelection {libs} -index {Adder} -in [gi::getWindows 2]
+[13:46:05.75] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:46:05.75] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:46:08.72] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+725+201
+[13:46:28.21] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[13:46:37.94] /# gi::executeAction dmShowNewLibrary -in [gi::getWindows 2]
+[13:46:37.94] /i dm::showNewLibrary -parent 2
+[13:46:37.98] /o oa:0x245eb9a0
+[13:46:38.00] /i gi::setActiveDialog [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:46:38.29] /i db::setAttr geometry -of [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]] -value 446x479+1022+327
+[13:46:39.74] /i gi::pressButton {libDirBrowse} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:46:42.29] /r giFileDialog accept bit_adder
+[13:46:47.96] /i gi::setField {libName} -value {bit_adder} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:46:47.96] /i gi::pressButton {ok} -in [gi::getDialogs {dmNewLibrary} -parent [gi::getWindows 2]]
+[13:46:47.98] /# dm::createLib bit\_adder -path {bit_adder/bit_adder} -dmSystem oaDMFileSys
+[13:46:47.98] /w Warning: In file /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs: Unable to open library four#2dbit_adder at path /DCNFS/users/student/sliu2/coen153/lab2/Adder/four#2dbit_adder : No access permission. (DATA_MANAGEMENT-014)
+[13:46:48.26] /# db::importTechFile /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/auxx/tech/cdesigner_1.0.tf -lib [oa::LibFind [oa::ScalarName [oa::CdbaNS] bit\_adder]]; oa::save [oa::TechFind [oa::ScalarName [oa::CdbaNS] bit\_adder]]
+[13:46:48.31] /m Information: set default manufacturing grid to the default value 0.005um for the imported technology library bit_adder. (TECH_IO-098)
+[13:46:48.33] /m Information: Technology file /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/auxx/tech/cdesigner_1.0.tf is successfully imported into lib bit_adder. (TECH_IO-099)
+[13:46:48.35] /# oa::close [oa::TechFind [oa::ScalarName [oa::CdbaNS] bit\_adder]]
+[13:46:50.55] /i gi::setCurrentIndex {libs} -index {bit_adder} -in [gi::getWindows 2]
+[13:46:50.56] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:46:50.56] /i gi::setItemSelection {libs} -index {bit_adder} -in [gi::getWindows 2]
+[13:46:51.48] /i gi::setCurrentIndex {cellCategories} -index {All} -in [gi::getWindows 2]
+[13:46:51.49] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 2]
+[13:46:53.35] /i gi::setCurrentIndex {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:46:53.35] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:47:11.95] /i gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[13:47:13.73] /i gi::setItemSelection {cellCategories} -index {Uncategorized} -in [gi::getWindows 2]
+[13:47:13.73] /i gi::setItemSelection {libs} -index {bit_adder} -in [gi::getWindows 2]
+[13:47:14.92] /i gi::executeAction dmDeleteLibrary -in [gi::getWindows 2]
+[13:47:14.94] /r giDialog gi::setActiveDialog [gi::getDialogs {dmDelete}]
+[13:47:15.24] /r giDialog db::setAttr geometry -of [gi::getDialogs {dmDelete}] -value 354x99+783+550
+[13:47:15.65] /r giDialog gi::pressButton {delete} -in [gi::getDialogs {dmDelete}]
+[13:47:15.66] /# db::destroy [oa::LibFind [oa::ScalarName  [oa::CdbaNS] bit\_adder]]
+[13:47:15.67] /w Warning: In file /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs: Unable to open library four#2dbit_adder at path /DCNFS/users/student/sliu2/coen153/lab2/Adder/four#2dbit_adder : No access permission. (DATA_MANAGEMENT-014)
+[13:47:15.95] /# gi::setCurrentIndex {libs} -index {basic} -in [gi::getWindows 2]
+[13:47:15.95] /# gi::setItemSelection {libs} -index {} -in [gi::getWindows 2]
+[13:47:35.18] /i exit
+[13:47:35.21] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[13:47:35.50] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[13:47:36.25] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[13:47:36.26] /i gi::setActiveWindow 1
+[13:47:36.27] /i gi::setActiveWindow 1 -raise true
+[13:47:36.44] /o Shutdown time: Tue May 15 13:47:36 2018
+[13:47:36.44] /o Elapsed session real time: 1.75 minutes
+[13:47:36.44] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/logs/ccompiler.sliu2.2018_5_15_134549_13627.log

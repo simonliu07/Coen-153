@@ -1,0 +1,3 @@
+CMOS { }
+C2MOS { stage CMOS }
+stage { }

@@ -1,0 +1,147 @@
+[11:29:49.09] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Sat May 19 11:29:47 2018
+              /c Host: linux60522
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2/Adder
+              /c 
+[11:29:53.10] /r giShowFrameTabs true
+[11:29:53.10] /r giWindowId 1
+[11:29:53.10] /r giWindowGeometry 1040x800
+[11:29:57.04] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenlab6bitAddersymbol} -in [gi::getWindows 1]
+[11:29:57.04] /# 
+[11:29:57.05] /i de::open lab6/bit_Adder/symbol
+[11:29:57.06] /m Information: License 'Schematic' checked out. (LICENSE-003)
+[11:29:57.15] /r giWindowId 2
+[11:29:57.15] /r giWindowGeometry 1632x1035
+[11:29:57.29] /o oa:0x1ce9bf50
+[11:30:04.73] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+46+136
+[11:30:48.33] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+-35+139
+[11:30:52.36] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+249+135
+[11:35:13.84] /i gi::setActiveWindow 1
+[11:35:13.84] /i gi::setActiveWindow 1 -raise true
+[11:35:14.78] /i gi::executeAction giCloseWindow -in [gi::getWindows 2]
+[11:35:17.05] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenlab6Testbenchschematic} -in [gi::getWindows 1]
+[11:35:17.05] /# 
+[11:35:17.05] /i de::open lab6/Testbench/schematic
+[11:35:17.15] /r giWindowId 3
+[11:35:17.15] /r giWindowGeometry 1632x1035
+[11:35:17.36] /m Information: 
+[11:35:17.36] /o Checking "lab6/Testbench/schematic"
+[11:35:17.36] /o No rule violations found in "lab6/Testbench/schematic"
+[11:35:17.36] /m Information: Checking process is completed: marking the design violations
+[11:35:17.36] /m Information: Marking of designs is completed
+[11:35:17.37] /o oa:0x23894e90
+[11:35:23.71] /# gi::executeAction deCellviewFromCellview -in [gi::getWindows 3]
+[11:35:23.71] /i db::showCellViewFromCellView -src [db::getAttr container -of [db::getAttr editFile -of [db::getNext [de::getContexts -window 3]]]] 
+[11:35:23.78] /o oa:0x23df4650
+[11:35:23.79] /i gi::setActiveDialog [gi::getDialogs {dbCellViewFromCellView}]
+[11:35:24.08] /i db::setAttr geometry -of [gi::getDialogs {dbCellViewFromCellView}] -value 628x346+646+448
+[11:35:25.61] /i gi::closeWindows [gi::getDialogs {dbCellViewFromCellView}]
+[11:35:38.02] /# gi::executeAction deSelectActive -in [gi::getWindows 3]
+[11:35:38.02] /i he::deselectAll -context [db::getAttr hierarchy -of [db::getNext [de::getContexts -window 3]]]
+[11:35:58.26] /i gi::setActiveWindow 1
+[11:35:58.26] /i gi::setActiveWindow 1 -raise true
+[11:35:59.65] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenlab6FullAdderschematic} -in [gi::getWindows 1]
+[11:35:59.65] /# 
+[11:35:59.65] /i de::open lab6/Full_Adder/schematic
+[11:35:59.74] /o 	############################################
+[11:35:59.74] /o 	        Synopsys Generic 90nm iPDK          
+[11:35:59.74] /o 	--------------------------------------------
+[11:35:59.74] /o 	Release Date .............. : 11-May-2016    
+[11:35:59.74] /o 	============================================
+[11:35:59.74] /o 	        Recommended Tool Versions           
+[11:35:59.74] /o 	--------------------------------------------
+[11:35:59.74] /o 	Custom Designer ........... : J-2014.12-2    
+[11:35:59.74] /o 	IC Validator .............. : K-2015.12   
+[11:35:59.74] /o 	StarRC..................... : K-2015.12  
+[11:35:59.74] /o 	--------------------------------------------
+[11:35:59.74] /o 	############################################
+[11:35:59.74] /o 
+[11:35:59.76] /o SAED PDK 90: Loaded callbacks
+[11:35:59.77] /o SAED PDK 90: Loaded display resources
+[11:35:59.83] /r giWindowId 4
+[11:35:59.83] /r giWindowGeometry 1632x1035
+[11:35:59.99] /o "lab6/Full_Adder/schematic" design does not need checking
+[11:36:00.00] /o oa:0x24626c20
+[11:36:03.52] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+33+124
+[11:43:09.32] /i gi::setActiveWindow 1
+[11:43:09.32] /i gi::setActiveWindow 1 -raise true
+[11:51:57.41] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[11:51:57.41] /# 
+[11:51:57.41] /i dm::openLibraryManager
+[11:51:57.41] /r giWindowId 5
+[11:51:57.43] /r giWindowGeometry 660x600+50+75
+[11:51:57.56] /o oa:0x24723510
+[11:51:58.67] /i gi::setCurrentIndex {libs} -index {lab6} -in [gi::getWindows 5]
+[11:51:58.68] /i gi::setItemSelection {cellCategories} -index {All} -in [gi::getWindows 5]
+[11:51:58.68] /i gi::setItemSelection {libs} -index {lab6} -in [gi::getWindows 5]
+[11:53:12.49] /i gi::setCurrentIndex {cells} -index {bit_Adder} -in [gi::getWindows 5]
+[11:53:12.51] /i gi::setItemSelection {cells} -index {bit_Adder} -in [gi::getWindows 5]
+[11:53:12.87] /i gi::setCurrentIndex {cells} -index {Testbench} -in [gi::getWindows 5]
+[11:53:12.91] /i gi::setItemSelection {cells} -index {Testbench} -in [gi::getWindows 5]
+[11:53:14.09] /i gi::setCurrentIndex {views} -index {schematic} -in [gi::getWindows 5]
+[11:53:14.09] /i gi::setItemSelection {views} -index {schematic} -in [gi::getWindows 5]
+[11:53:14.25] /i gi::executeAction dmOpen -in [gi::getWindows 5]
+[11:53:14.26] /r giWindowId 6
+[11:53:14.27] /r giWindowGeometry 1632x1035
+[11:53:14.45] /m Information: 
+[11:53:14.45] /o Checking "lab6/Testbench/schematic"
+[11:53:14.45] /o No rule violations found in "lab6/Testbench/schematic"
+[11:53:14.45] /m Information: Checking process is completed: marking the design violations
+[11:53:14.45] /m Information: Marking of designs is completed
+[11:53:51.72] /# gi::executeAction deSelectActive -in [gi::getWindows 6]
+[11:53:51.72] /i de::deselectAll [db::getNext [de::getContexts -window 6]]
+[11:53:51.72] /i de::select [de::getActiveFigure [gi::getWindows 6] -point {0.34375 3.25625} -index 0 -intent none]
+[11:53:51.72] /o oa:0x24269820
+[11:53:52.54] /i gi::executeAction sePropertyEditorToggle -in [gi::getWindows 6]
+[11:53:52.54] /# db::setAttr shown -of [gi::getAssistants dePropertyEditor -from [gi::getWindows 6]] -value true
+[11:54:57.69] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+-22+166
+[12:00:09.23] /i gi::setActiveWindow 5
+[12:00:09.23] /i gi::setActiveWindow 5 -raise true
+[12:00:12.06] /i gi::setActiveWindow 3
+[12:00:12.06] /i gi::setActiveWindow 3 -raise true
+[12:00:13.23] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+62+159
+[12:00:14.67] /# gi::executeAction seShowConsoleForWindow -in [gi::getWindows 3]
+[12:00:14.67] /i sa::showConsole -context [db::getNext [de::getContexts -window 3]]
+[12:00:17.60] /m Information: License 'SAE' checked out. (LICENSE-003)
+[12:00:17.66] /r giWindowId 7
+[12:00:17.68] /r giWindowGeometry 600x500
+[12:00:17.79] /o oa:0x28f3e5b0
+[12:00:17.83] /m Information: Launching Background sae_shell Server Process "cd /DCNFS/users/student/sliu2/coen153/lab2/Adder && sae_shell -log sae_shell_session0 -libDefFile /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs"
+[12:00:19.39] /i gi::setActiveDialog [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 7]]
+[12:00:19.69] /i db::setAttr geometry -of [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 7]] -value 621x631+272+242
+[12:00:21.97] /m Information: Received ready-for-commands signal from job 'sae_shell_session0' after 4 seconds.
+[12:00:39.91] /i gi::pressButton {/cancel} -in [gi::getDialogs {saEditAnalysesDialogXsaeSession0} -parent [gi::getWindows 7]]
+[12:03:47.01] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+55+183
+[12:03:47.83] /r giDialog gi::setActiveDialog [gi::getDialogs {giCloseFrame}]
+[12:03:48.13] /r giDialog db::setAttr geometry -of [gi::getDialogs {giCloseFrame}] -value 297x113+427+419
+[12:03:48.57] /r giDialog gi::pressButton {giCloseTabsButton} -in [gi::getDialogs {giCloseFrame}]
+[12:03:48.60] /i exit
+[12:03:48.64] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[12:03:48.94] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[12:03:49.82] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[12:03:49.87] /i gi::setActiveWindow 3
+[12:03:49.87] /i gi::setActiveWindow 3 -raise true
+[12:03:49.91] /m Information: License 'SAE' checked in. (LICENSE-004)
+[12:03:49.96] /i gi::setActiveWindow 5
+[12:03:49.96] /i gi::setActiveWindow 5 -raise true
+[12:03:50.06] /i gi::setActiveWindow 6
+[12:03:50.06] /i gi::setActiveWindow 6 -raise true
+[12:03:50.10] /i gi::setActiveWindow 4
+[12:03:50.10] /i gi::setActiveWindow 4 -raise true
+[12:03:50.25] /i gi::setActiveWindow 1
+[12:03:50.25] /i gi::setActiveWindow 1 -raise true
+[12:03:50.57] /o Shutdown time: Sat May 19 12:03:50 2018
+[12:03:50.57] /o Elapsed session real time: 34.03 minutes
+[12:03:50.57] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/logs/ccompiler.sliu2.2018_5_19_112947_22852.log

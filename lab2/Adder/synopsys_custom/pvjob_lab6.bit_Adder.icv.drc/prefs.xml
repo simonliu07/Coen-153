@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="lab6/bit_Adder/layout" name="xtDRCLayLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.bit_Adder.icv.drc/bit_Adder.custom_compiler.gds" name="xtDRCLayStreamFile"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,42 @@
+[16:23:26.69] /m Information: License 'SAE' checked out. (LICENSE-003)
+[16:23:29.10] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Tue Apr 24 16:23:24 2018
+              /c Host: linux60515
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[16:23:29.25] /o 	############################################
+[16:23:29.25] /o 	        Synopsys Generic 90nm iPDK          
+[16:23:29.25] /o 	--------------------------------------------
+[16:23:29.25] /o 	Release Date .............. : 11-May-2016    
+[16:23:29.25] /o 	============================================
+[16:23:29.25] /o 	        Recommended Tool Versions           
+[16:23:29.25] /o 	--------------------------------------------
+[16:23:29.25] /o 	Custom Designer ........... : J-2014.12-2    
+[16:23:29.25] /o 	IC Validator .............. : K-2015.12   
+[16:23:29.25] /o 	StarRC..................... : K-2015.12  
+[16:23:29.25] /o 	--------------------------------------------
+[16:23:29.25] /o 	############################################
+[16:23:29.25] /o 
+[16:23:29.26] /o SAED PDK 90: Loaded callbacks
+[16:23:29.27] /o SAED PDK 90: Loaded display resources
+[16:23:29.28] /i ::sa::_backgroundSaeShell::signalProcessReady 1524612203
+[16:23:29.28] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 6
+[16:25:26.36] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[16:25:26.65] /m Information: Expression 'v(/Vin)' did not evaluate: No results found.
+[16:25:26.65] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[16:25:26.67] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[16:25:26.67] /o false
+[16:26:56.55] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[16:26:56.88] /m Information: Expression 'v(/Vin)' did not evaluate: No results found.
+[16:26:56.88] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[16:26:56.93] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/config/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[16:26:56.93] /o false
+[16:27:29.99] /i ::sa::_backgroundSaeShell::exit
+[16:27:29.99] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[16:27:30.34] /m Information: License 'Advanced' checked in. (LICENSE-004)
+[16:27:30.34] /m Information: License 'Basic' checked in. (LICENSE-004)
+[16:27:30.34] /m Information: License 'SAE' checked in. (LICENSE-004)

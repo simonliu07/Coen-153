@@ -1,0 +1,27 @@
+Wn = 0.4um
+Ln = 0.1um
+Wp = 1.2um
+Lp = 0.1um
+
+kn' = 3 * kp'
+Wn / Ln = 4
+Wp / Lp = 12
+kn' * Wn/Ln = 4
+kp' * Wp/Lp = 12
+
+Inv2:
+Wn/Ln = 8   => Wn = 0.8um
+Wp/Lp = 24  => Wp = 2.4um
+
+Wn = 1.6um
+Wp = 4.8um
+
+Set-up Time : 22.6p
+Hold-Time : 0
+Delay : 58.4p
+
+Set-up Time : 37p
+Hold-Time : 0
+Delay : 84.9p
+
+

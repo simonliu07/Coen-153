@@ -1,0 +1,26 @@
+* XREF SPICE	Tue Jun  5 13:49:17 2018	C2MOS
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=C2MOS
+.subckt C2MOS vdd! CLKb D CLK gnd! Qs
+M_XI1/MM3 XI1/net13 net51 gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI1/MM2 net54 CLK XI1/net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI0/MM3 XI0/net13 D gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI0/MM2 Qm CLKb XI0/net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_XI8/MM0 Qs net50 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI9/MM0 net51 net53 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI4/MM0 net54 net50 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI5/MM0 net50 net54 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI2/MM0 net53 Qm gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI3/MM0 Qm net53 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI1/MM0 XI1/net5 net51 vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI1/MM1 net54 CLKb XI1/net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI0/MM0 XI0/net5 D vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI0/MM1 Qm CLK XI0/net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_XI8/MM1 Qs net50 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI9/MM1 net51 net53 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI4/MM1 net54 net50 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI5/MM1 net50 net54 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI2/MM1 net53 Qm vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI3/MM1 Qm net53 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends C2MOS

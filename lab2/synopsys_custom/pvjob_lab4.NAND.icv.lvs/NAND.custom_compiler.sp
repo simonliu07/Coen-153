@@ -1,0 +1,24 @@
+*Custom Compiler Version M-2017.03-SP1-1
+*Tue May  8 14:44:02 2018
+
+*.SCALE METER
+*.LDD
+.GLOBAL gnd! vdd!
+********************************************************************************
+* Library          : lab4
+* Cell             : NAND
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt NAND A B C OUT
+*.PININFO A:I B:I C:I OUT:I
+MM2 net9 C gnd! gnd! n12 w=1.2u l=0.1u nf=1.0 m=1
+MM1 net5 B net9 gnd! n12 w=1.2u l=0.1u nf=1.0 m=1
+MM0 OUT A net5 gnd! n12 w=1.2u l=0.1u nf=1.0 m=1
+MM5 OUT C vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+MM4 OUT A vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+MM3 OUT B vdd! vdd! p12 w=1.2u l=0.1u nf=1.0 m=1
+.ends NAND
+
+

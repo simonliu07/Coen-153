@@ -1,0 +1,8 @@
+openaccess layout lab2 icv SPICE SPICE CMOS CMOS /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_lab2.CMOS.icv.lvs/rules.lvs.9m_saed90_lvs.lvs.rs /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_lab2.CMOS.icv.lvs/CMOS.lvs.custom_compiler.rc /DCNFS/users/student/sliu2/coen153/lab2/lib.defs /DCNFS/applications/synopsys/2017/app/SAED/SAED_PDK90nm/techfiles/saed_pdk90_layer.map -vue -stc -sf -sf -rc -quiet=0 -oa_view -oa_lib_defs -oa_layer_map -i -f -c 
+schematic=/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_lab2.CMOS.icv.lvs/CMOS.custom_compiler.sp
+ICV_HOME_DIR=/opt/synopsys-2017/app/icvalidator/M-2017.06-1
+ICV_INCLUDES=UNSET
+nettran_command= icv_nettran -sp /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_lab2.CMOS.icv.lvs/CMOS.custom_compiler.sp -dupCell USE_MULTIPLE -globalNets VDD VDD12 VDD22 -mprop -cell CMOS -quiet -logFile run_details/icv_nettran.log -globalNets VDD VDD12 VDD22 VSS VSS12 VDD22  -wireLog run_details/nettran_wire.log -outName /.netlist_database_sch -outType ndb -ndb-noOrgname -ndb-micron -sp-ndbConnect
+CMOS
+/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_lab2.CMOS.icv.lvs/run_details
+Complete

@@ -1,0 +1,18 @@
+# Tue Jun 5 13:11:29 2018
+
+# icv_vue: RHEL64 M-2017.06-1.3706802 2017/06/19
+
+# Hostname     : linux60514
+# Platform type: LINUX.64
+
+# Called as: 
+# icv_vue -lay CDesignerLE -sch CDesignerSE -load /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.vue -cmdPrint 
+
+vue_loadFile {HiLoadPage} {/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.vue}
+vue_select {mainTab} {LVS Errors}
+vue_select {lvsEquivListView} {0:0}
+vue_expand {lvsEquivListView} 1 {0:0}
+vue_expand {lvsEquivListView} 1 {0:0:0}
+vue_select {lvsEquivListView} {0:0:0:0}
+vue_doubleClick {lvsEquivListView} {0:0:0:0} 0
+vue_close {HiMain}

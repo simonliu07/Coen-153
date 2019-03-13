@@ -1,0 +1,38 @@
+[12:07:28.06] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue May 29 12:07:25 2018
+              /c Host: linux60515
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2
+              /c 
+[12:07:32.09] /r giShowFrameTabs true
+[12:07:32.09] /r giWindowId 1
+[12:07:32.09] /r giWindowGeometry 1040x800
+[12:07:35.71] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/applications/dmLibraryManager} -in [gi::getWindows 1]
+[12:07:35.72] /# 
+[12:07:35.72] /i dm::openLibraryManager
+[12:07:35.72] /r giWindowId 2
+[12:07:35.72] /r giWindowGeometry 660x600+50+75
+[12:07:35.77] /o oa:0x2378b3c0
+[12:07:39.26] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+931+416
+[12:07:40.64] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+885+367
+[12:07:48.92] /i db::setAttr geometry -of [gi::getFrames 1] -value 1040x824+649+341
+[12:07:49.69] /i exit
+[12:07:49.71] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[12:07:50.01] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[12:07:51.30] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[12:07:51.32] /i gi::setActiveWindow 1
+[12:07:51.32] /i gi::setActiveWindow 1 -raise true
+[12:07:51.49] /o Shutdown time: Tue May 29 12:07:51 2018
+[12:07:51.49] /o Elapsed session real time: 0.4 minutes
+[12:07:51.49] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/logs/ccompiler.sliu2.2018_5_29_120725_20655.log

@@ -1,0 +1,63 @@
+ Stack Dump: VERSION M-2017.03-SP1-1 CONFIG 3718339 DATE Tue May 1 12:16:45 2018
+ Frame 0. libX11.so.6: _XIOError + 0x4e
+ Frame 1. libX11.so.6: _XReply + 0x3db
+ Frame 2. custom_compiler: _XReply + 0x30
+ Frame 3. libX11.so.6: XQueryPointer + 0x8e
+ Frame 4. QCursor::pos() + 0xa3
+ Frame 5. QTreeView::drawTree(QPainter*, QRegion const&) const + 0x216
+ Frame 6. QTreeView::paintEvent(QPaintEvent*) + 0x7f
+ Frame 7. QWidget::event(QEvent*) + 0x360
+ Frame 8. QFrame::event(QEvent*) + 0x1e
+ Frame 9. QAbstractItemView::viewportEvent(QEvent*) + 0x1d3
+ Frame 10. QTreeView::viewportEvent(QEvent*) + 0x2c
+ Frame 11. QCoreApplicationPrivate::sendThroughObjectEventFilters(QObject*, QEvent*) + 0x86
+ Frame 12. QApplicationPrivate::notify_helper(QObject*, QEvent*) + 0x6c
+ Frame 13. QApplication::notify(QObject*, QEvent*) + 0x296
+ Frame 14. QCoreApplication::notifyInternal(QObject*, QEvent*) + 0x6d
+ Frame 15. QWidgetPrivate::drawWidget(QPaintDevice*, QRegion const&, QPoint const&, int, QPainter*, QWidgetBackingStore*) + 0x5a1
+ Frame 16. QWidgetPrivate::repaint_sys(QRegion const&) + 0x1ee8
+ Frame 17. QWidgetPrivate::syncBackingStore() + 0x80
+ Frame 18. QWidget::event(QEvent*) + 0x428
+ Frame 19. 0xa65dff1 SNPSee_2bc0c1f8dcc09e0b3f820e87830cea2d1fe402f0eaf79add85a573548fbceb35b2da2e3e5df9de73 + 0x61
+ Frame 20. QApplicationPrivate::notify_helper(QObject*, QEvent*) + 0x8c
+ Frame 21. QApplication::notify(QObject*, QEvent*) + 0x296
+ Frame 22. QCoreApplication::notifyInternal(QObject*, QEvent*) + 0x6d
+ Frame 23. QWidgetPrivate::invalidateBuffer(QRegion const&) + 0x53e
+ Frame 24. QWidget::repaint(QRect const&) + 0x95
+ Frame 25. QWidget::repaint() + 0x33
+ Frame 26. 0x9990b35 SNPSee_74db517bd6bfe1636e301acf1a32db985ebe13c3af7954a87dd2f5f6dbc2d967aa47a3db277da78168ec01defb762e4988c439964f49c922f141d18db3994819cc9707c8b31f9da61c7ef4153aae82dd2d7d32ff52272dd7f362e0de87fd5cd3ddedc625a28f2ccffe132b4adb0fa8b1 + 0x95
+ Frame 27. 0x9990be7 SNPSee_74db517bd6bfe1636e301acf1a32db985ebe13c3af7954a87dd2f5f6dbc2d967aa47a3db277da781841312e2b1a24b16f6b21bfdd9acb1e7 + 0x47
+ Frame 28. 0x9990c46 SNPSee_74db517bd6bfe1636e301acf1a32db985ebe13c3af7954a87dd2f5f6dbc2d967aa47a3db277da781e0c8a3925f18c8480d74e9b979ad5744 + 0x46
+ Frame 29. 0x99914c5 SNPSee_74db517bd6bfe1636e301acf1a32db98153282f1d58e2f73442b88496a2e63dafbb4dd66efb54871e60adbdcea19b2bb03b8e54157322652943d89c215ad7e30c4a2b0f9c8ee7b42b66c7e995e74276acba0a31bd90fabe40dbe6294d76dc28d84536c390cbe5126bdd182076ef08256ddf3fdacc242d92f133a4e878d634b59a4648fb147173ba0a341e26e54652ccc + 0xb5
+ Frame 30. 0x19de8e2 SNPSee_1e1698a6677884ced3896eca1c49d86453ee8419e88f67bddfec294fb29313b75807212876b3c9cf2a61b18b74f183f20b71cdb5ab26b4e74e179560e3a6ad96a0e3b5baf89dadbb71fe2e263bfbafe14e88458d08801a2566d0795bc21e2af91bdbbe7c72c362e89a802b1e187ea95158bfa18d18064972 + 0x42
+ Frame 31. 0x19df191 SNPSee_1e1698a6677884ced3896eca1c49d864be83e2830c4c0fb21a681a142d611624a17d5104ea80c814b47526839a956530c33e80f15ceff41e1d509ee59dcc1f83ac8d16f1417f3cde10e36bb4ce08563e10686fa896a81649dfc6d248cfa9dadf + 0x321
+ Frame 32. 0x5b8abcf SNPSee_b0b525c42d79b6a043c89ed1203cc8f3d522c8b55ada7c8fae9208055fd3c5115330c15a25eda3f9a90544bfcf40a3ae8de5ecdecae2af87212b34435656cb0f61a10a8c5a334e79 + 0x62f
+ Frame 33. 0xae8d5e8 SNPSee_4b67e83acce6b981dc5bee9def41b4c5a8a713db11ee1ce2a45130298f19a1efea87366daf90fade890a69852003125cdb66aa4e63c308dc5b1731e3616058cf + 0x18
+ Frame 34. 0xae8f86a SNPSee_4b67e83acce6b981dc5bee9def41b4c542adb4ed7bb1904ed2de6d75cd5fce47cdcf3d46490afec75aaa09a1235548cd + 0xea
+ Frame 35. 0xae73119 SNPSee_4b67e83acce6b98117cdb4104ddf90edc02116329c0fdf1ab035bcfc0eea8a4baf2fa700ec6b9d31745878437a4b7ee3861b44f0b9e0e0e1658edde5a4c420573c60368ff2e3d4c5 + 0x119
+ Frame 36. custom_compiler: TclNRRunCallbacks + 0x46
+ Frame 37. 0x19e0e3f SNPSee_b74352461d9055f38180942b190d72a79d5b8fa19365464606d0dcabacf0cbbc52f424ca75cc95a418ad948726ca88aa4d5bf7d30992f43a + 0x3f
+ Frame 38. 0x845dccf SNPSee_f99ee85413b805a5dd660baae10c64a1a8d61c4ddbabb141c6c06cc013d2301cd3026643b933d3b6f56d890a9101f51a1fab4ca248c83af3a04295f816fa306d0c3a22255eb0b77d98ebf20f8ff99700d83f6fe51df545d1a9c3f27d72f5c0d6 + 0x3f
+ Frame 39. 0x84320c0 SNPSee_648b6c406260d36cc793209230a973fddd0c987e984115954112bdfcecd2f781d36bdfd77fe15ee49f45c530f6d2dc52 + 0x70
+ Frame 40. 0x8438734 SNPSee_648b6c406260d36cc793209230a973fdb751ae828600485c7d8aec45ae7f9918 + 0x144
+ Frame 41. 0x846813d SNPSee_648b6c406260d36cc793209230a973fd3c5c8a70dfe6db30d2dc95e6ce3723f1a9518a6a561051d70395801abc35aa191b27fb4c3b1caf285e54eae636335436768a914323e13036882ddd5aceece95d + 0x16d
+ Frame 42. QMetaObject::activate(QObject*, QMetaObject const*, int, void**) + 0x4b0
+ Frame 43. QObject::event(QEvent*) + 0x83
+ Frame 44. QApplicationPrivate::notify_helper(QObject*, QEvent*) + 0x8c
+ Frame 45. QApplication::notify(QObject*, QEvent*) + 0x296
+ Frame 46. QCoreApplication::notifyInternal(QObject*, QEvent*) + 0x6d
+ Frame 47. QEventDispatcherUNIX::unregisterTimer(int) + 0x308
+ Frame 48. QSegfaultHandler::initialize(char**, int) + 0x2521
+ Frame 49. libglib-2.0.so.0: g_main_context_dispatch + 0x159
+ Frame 50. /lib64/libglib-2.0.so.0 ::0x7f92018e9818 + 0x4a8
+ Frame 51. libglib-2.0.so.0: g_main_context_iteration + 0x2c
+ Frame 52. QEventDispatcherGlib::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x64
+ Frame 53. QPaintDevice::devType() const + 0x5bd6
+ Frame 54. QEventLoop::processEvents(QFlags<QEventLoop::ProcessEventsFlag>) + 0x31
+ Frame 55. QEventLoop::exec(QFlags<QEventLoop::ProcessEventsFlag>) + 0x185
+ Frame 56. QCoreApplication::exec() + 0x89
+ Frame 57. 0x16b7b97 SNPSee_002365a670bbd5d0a7c56191a475a3ee632fcc3a9fd6c1d60707b94db351293835df6d970cefab6fb6155797a49e5eb7 + 0xbd7
+ Frame 58. custom_compiler: main + 0xf7
+ Frame 59. libc.so.6: __libc_start_main + 0xf5
+ Frame 60. /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler ::0x16a7be5 + 0x29
+

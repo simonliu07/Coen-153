@@ -1,0 +1,5 @@
+[15:33:33.55] /m Information: "Starting netlisting for design "lab6/bit_Adder/schematic"..."
+               (NETLISTING-010)
+[15:33:33.56] /o No Design Integrity rule violations found in "lab6/bit_Adder/schematic"
+[15:33:33.84] /m Information: "Netlisting design "lab6/bit_Adder/schematic" finished
+               successfully." (NETLISTING-012)

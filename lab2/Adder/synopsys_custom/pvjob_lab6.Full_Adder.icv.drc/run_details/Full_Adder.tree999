@@ -1,0 +1,365 @@
+*** Full_Adder		Tue May 22 14:51:55 2018
+
+AFTER removing temp no_explodes & post-vcell processing (Final Tree)
+
+
+
+		DESIGN STATISTICS DEFINITIONS
+		______ __________ ______________.
+
+Hierarchical levels       The number of levels in the design.
+Unique Cells              The number of unique cells in the design.
+Hierarchical placements   The total number of placements (srefs and arefs)
+			  at each level in the design.
+Total Design placements   The total number of placements (srefs and arefs)
+			  in the design.
+Exploded references       The total number of exploded references in the
+			   design.
+Exploded placements       The total number of exploded placements in the
+			   design.
+Total Data count          The total number of all polygons, paths, 
+			  edges, and rectangles in the design.
+Sref Placements           The total number of cell references in the design.
+Arefs                     The total number of array references in the design.
+Aref Placements           The total number of references in each array
+			  reference in the design.
+Data                      The number of data primitives in each cell
+			  of the design.
+Text                      The number of text primitives in each cell of the design.
+
+
+*********************************************************************************
+
+
+		DESIGN STATISTICS FOR "Full_Adder".
+		______ __________ ___ ___________.
+
+	Hierarchical levels	=         4
+	Unique cells		=         5
+	Hierarchical placements	=        14
+	Total design placements	=        22
+	Exploded references	=         0
+	Exploded placements	=         0
+	Total data count	=       870
+	SREF placements		=        22
+	AREFS			=         0
+	AREF placements		=         0
+	DATA 			=       385
+	TEXT			=         0
+
+
+*********************************************************************************
+
+
+		CELL PROFILE STATISTICS DEFINITIONS
+		_______________________________________.
+
+Total Data      Count of all sref's, aref's, rectangles, paths, edges, and polygons in the cell.
+Prims           Count of all rectangles, paths, edges, and polygons in the cell.
+Refs            Count of all sref's and aref's in the cell.
+Text            Count of all text elements in the cell.
+Flat Plcs       The flat placement count for the cell.
+Explode Type    Cell explode type.
+
+
+*********************************************************************************
+
+
+			CELL PROFILE DATA
+			____ _______ ____.
+
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST DATA COUNT
+
+     Cell Name       Total Data   Prims   Refs Text    Flat Plcs    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ SAED_PDK_90.pmos4t.layout      18      18       0       0      15    USED
+ Half_Adder               40      38       2       0       2    USED
+ Adder.AND.layout         95      92       3       0       2    USED
+ Adder.XOR.layout        106     103       3       0       2    USED
+ Full_Adder              139     134       5       0       1    USED
+
+
+		CELLS ORDERED FROM LOWEST TO HIGHEST FLAT PLACEMENT COUNT
+
+     Cell Name       Flat Plcs   Prims   Refs Text    Total Data    Explode Type
+-------------------  ----------  ------  ----- ------ -----------   ------------
+ Full_Adder                1     134       5       0     139    USED
+ Half_Adder                2      38       2       0      40    USED
+ Adder.AND.layout          2      92       3       0      95    USED
+ Adder.XOR.layout          2     103       3       0     106    USED
+ SAED_PDK_90.pmos4t.layout      15      18       0       0      18    USED
+
+
+*********************************************************************************
+
+		HIERARCHICAL TREE FOR BLOCK "Full_Adder".
+
+TOTAL: Number of placements
+SREF : Number of SREF placements
+AREF : Number of AREF placements
+1Q   : Number of placements at   0 degrees
+2Q   : Number of placements at  90 degrees
+3Q   : Number of placements at 180 degrees
+4Q   : Number of placements at 270 degrees
+1R   : Number of reflected placements at   0 degrees
+2R   : Number of reflected placements at  90 degrees
+3R   : Number of reflected placements at 180 degrees
+4R   : Number of reflected placements at 270 degrees
+
+							       TOTAL    SREF    AREF   1Q   2Q   3Q   4Q   1R   2R   3R   4R
+Full_Adder				      Level=0  Count=      1       1       0    0    0    0    0    0    0    0    0
+ Half_Adder				      Level=1  Count=      2       2       0    2    0    0    0    0    0    0    0
+  Adder.AND.layout			      Level=2  Count=      1       1       0    1    0    0    0    0    0    0    0
+   SAED_PDK_90.pmos4t.layout		      Level=3  Count=      3       3       0    1    0    0    0    0    0    2    0
+  Adder.XOR.layout			      Level=2  Count=      1       1       0    1    0    0    0    0    0    0    0
+   SAED_PDK_90.pmos4t.layout		      Level=3  Count=      3       3       0    1    0    0    0    0    0    2    0
+ SAED_PDK_90.pmos4t.layout		      Level=1  Count=      3       3       0    2    0    0    0    0    0    1    0
+
+
+*********************************************************************************
+
+
+		CELL STATISTICS
+
+
+CELL = Full_Adder
+	Cell Status		= USED
+	OPENACCESS Library	= lab6
+	OPENACCESS Cell Name	= Full_Adder
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.155, 0.090) (18.975, 6.060)
+	Cell Area		= 112.36
+	Hierarchical Placements	=        1
+	Flat Placements		=        1
+	SREFS			=        5	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=      134
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      12      0       
+   PIMPi      3       0       
+   NIMPi      6       0       
+   POi        9       0       
+   M1i        59      0       
+   VIA1i      8       0       
+   M2i        23      0       
+   COi        13      0       
+
+CELL = Half_Adder
+	Cell Status		= USED
+	OPENACCESS Library	= lab6
+	OPENACCESS Cell Name	= Half_Adder
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.035, 0.070) (7.240, 4.830)
+	Cell Area		= 34.30
+	Hierarchical Placements	=        2
+	Flat Placements		=        2
+	SREFS			=        2	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       38
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   M1i        14      0       
+   VIA1i      8       0       
+   M2i        16      0       
+
+CELL = Adder.AND.layout
+	Cell Status		= USED
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= AND
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.795, -3.580) (2.440, 0.105)
+	Cell Area		= 11.92
+	Hierarchical Placements	=        1
+	Flat Placements		=        2
+	SREFS			=        3	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       92
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      10      0       
+   PIMPi      3       0       
+   NIMPi      6       0       
+   POi        9       0       
+   M1i        37      0       
+   VIA1i      2       0       
+   M2i        6       0       
+   COi        13      0       
+   M1PIN      4       0       
+   M2PIN      1       0       
+
+CELL = Adder.XOR.layout
+	Cell Status		= USED
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= XOR
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.395, -3.580) (4.355, 0.105)
+	Cell Area		= 14.59
+	Hierarchical Placements	=        1
+	Flat Placements		=        2
+	SREFS			=        3	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=      103
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      10      0       
+   PIMPi      4       0       
+   NIMPi      7       0       
+   POi        9       0       
+   M1i        39      0       
+   VIA1i      6       0       
+   M2i        10      0       
+   COi        13      0       
+   M1PIN      2       0       
+   M2PIN      2       0       
+
+CELL = SAED_PDK_90.pmos4t.layout
+	Cell Status		= USED
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= pmos4t
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= PCell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.540, -0.240) (0.640, 1.750)
+	Cell Area		= 2.35
+	Hierarchical Placements	=        9
+	Flat Placements		=       15
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       18
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      2       0       
+   PIMPi      1       0       
+   POi        2       0       
+   M1i        3       0       
+   COi        9       0       
+
+CELL = Adder.OR.layout
+	Cell Status		= AUTO_EXPLODED (PLACEMENT LIMIT)
+	OPENACCESS Library	= Adder
+	OPENACCESS Cell Name	= OR
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Normal Cell
+	OPENACCESS Cell Extents (LL,UR)	= (0.195, -3.580) (3.685, 0.130)
+	Cell Area		= 12.95
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        8	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       50
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      1/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   NWELLi     1       0       
+   DIFFi      6       0       
+   PIMPi      3       0       
+   NIMPi      3       0       
+   POi        3       0       
+   M1i        26      0       
+   M2i        4       0       
+   COi        4       0       
+
+CELL = SAED_PDK_90.VIA12.layout
+	Cell Status		= AUTO_EXPLODED (DATA_CELL_LIMIT CELL)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= VIA12
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= Standard Via
+	OPENACCESS Cell Extents (LL,UR)	= (-0.120, -0.075) (0.120, 0.075)
+	Cell Area		= 0.04
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=        3
+	TEXT			=        0
+	Via			=        1
+	Upright/Side		=      0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   M1i        1       0       
+   VIA1i      1       0       
+   M2i        1       0       
+
+CELL = SAED_PDK_90.nmos4t.layout
+	Cell Status		= AUTO_EXPLODED (POST-VCELL DATA LIMIT)
+	OPENACCESS Library	= SAED_PDK_90
+	OPENACCESS Cell Name	= nmos4t
+	OPENACCESS View Name	= layout
+	OPENACCESS Cell Type	= PCell
+	OPENACCESS Cell Extents (LL,UR)	= (-0.440, -0.230) (0.540, 0.950)
+	Cell Area		= 1.16
+	Hierarchical Placements	=        0
+	Flat Placements		=        0
+	SREFS			=        0	
+	AREFS			=        0	
+	AREF placements		=        0
+	Exploded references	=        0
+	Exploded placements	=        0
+	DATA			=       11
+	TEXT			=        0
+	Via			=        0
+	Upright/Side		=      0/0
+   Current Data Counts for Cell:
+   Name    Data     Text
+   -----   -----    -----
+   DIFFi      2       0       
+   NIMPi      1       0       
+   POi        2       0       
+   M1i        3       0       
+   COi        3       0       

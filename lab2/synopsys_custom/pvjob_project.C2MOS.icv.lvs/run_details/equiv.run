@@ -1,0 +1,5 @@
+
+/* top equiv */
+equiv_options({{"C2MOS", "C2MOS"}});
+
+/* Generated system equivalence points are listed in this section */

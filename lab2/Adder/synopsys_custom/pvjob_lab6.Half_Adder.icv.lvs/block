@@ -1,0 +1,18 @@
+* XREF SPICE	Tue May 22 13:39:57 2018	Half_Adder
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=Half_Adder
+.subckt Half_Adder x y s c vdd! gnd!
+M_XI5/MM5 s XI5/net2 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI5/MM1 x y XI5/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI5/MM0 y x XI5/net2 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI4/MM5 c XI4/net24 gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI4/MM0 XI4/net7 y gnd! gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI4/MM1 XI4/net24 x XI4/net7 gnd! n12  l=1e-07 w=4e-07 nf=1
+M_XI5/MM2 XI5/net1 y vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI5/MM3 XI5/net2 x XI5/net1 vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI5/MM4 s XI5/net2 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI4/MM4 c XI4/net24 vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI4/MM3 XI4/net24 y vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+M_XI4/MM2 XI4/net24 x vdd! vdd! p12  l=1e-07 w=1.2e-06 nf=1
+.ends Half_Adder

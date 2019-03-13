@@ -1,0 +1,14 @@
+********************************************************************************
+* Library          : lab6
+* Cell             : Full_Adder
+* View             : schematic
+* View Search List : auCdl schematic symbol
+* View Stop List   : auCdl
+********************************************************************************
+.subckt Full_Adder Cout ai bi ci si
+*.PININFO Cout:O ai:I bi:I ci:I si:O
+XI2 net18 net25 Cout OR
+XI5 net25 si net27 ci Half_Adder
+XI3 net18 net27 ai bi Half_Adder
+.ends Full_Adder
+

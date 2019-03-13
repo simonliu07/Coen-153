@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Jun  5 14:08:21 2018
+-->
+<synopsysFile version="1.1" name="synopsysRecentFiles">
+        <recentFiles>
+                <file cell="CMOS" mode="write" view="schematic" file="schematic" application="seSchematic" library="lab2"/>
+                <file cell="C2MOS" mode="read" view="layout" file="maskLayout" application="leLayout" library="project"/>
+                <file cell="testbench" mode="write" view="config" file="config.xml" application="deConfiguredDesign" library="C2mos"/>
+                <file cell="testbench_C2MOS" mode="write" view="config" file="config.xml" application="heEditor" library="project"/>
+                <file cell="C2MOS" mode="write" view="starrc" file="maskLayout" application="leLayout" library="project"/>
+        </recentFiles>
+</synopsysFile>

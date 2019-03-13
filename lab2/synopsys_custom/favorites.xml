@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler (TM), build #, on Tue Jun  5 14:08:22 2018
+-->
+<synopsysFile version="1.0" name="synopsysFavoriteDevices">
+        <favoriteDevices viewType="maskLayout">
+                <cellView cell="stage" view="layout" library="project">
+                        <alias name="stage"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="CMOS" view="layout" library="lab2">
+                        <alias name="CMOS"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+        <favoriteDevices viewType="schematic">
+                <cellView cell="gnd" view="symbol" library="analogLib">
+                        <alias name="gnd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="vdd" view="symbol" library="analogLib">
+                        <alias name="vdd"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="stage" view="symbol" library="project">
+                        <alias name="stage"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="C2MOS" view="symbol" library="project">
+                        <alias name="C2MOS"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+                <cellView cell="CMOS" view="symbol" library="lab2">
+                        <alias name="CMOS"/>
+                        <category name="Recently Placed"/>
+                </cellView>
+        </favoriteDevices>
+</synopsysFile>

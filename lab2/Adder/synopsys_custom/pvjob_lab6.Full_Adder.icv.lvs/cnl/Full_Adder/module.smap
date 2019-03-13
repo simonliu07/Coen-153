@@ -1,0 +1,36 @@
+<module name="vsl: lab6 Full_Adder schematic vl: auCdl schematic symbol">
+<scope name="Instance">
+<forward>
+<mapping src="I3" dst="XI3"/>
+<mapping src="I5" dst="XI5"/>
+<mapping src="I2" dst="XI2"/>
+</forward>
+<reverse>
+<mapping src="XI3" dst="I3"/>
+<mapping src="XI5" dst="I5"/>
+<mapping src="XI2" dst="I2"/>
+</reverse>
+</scope>
+<scope name="Net">
+<forward/>
+<reverse/>
+</scope>
+<scope name="Terminal">
+<forward>
+<mapping src="&lt;unmappedTermOrder>" dst="Cout ai bi ci si"/>
+<mapping src="&lt;termOrder>" dst="Cout ai bi ci si"/>
+</forward>
+<reverse>
+<mapping src="Cout ai bi ci si" dst="&lt;unmappedTermOrder>"/>
+</reverse>
+</scope>
+<master_instances>
+<instance_header master="Half_Adder">
+<instance name="I3"/>
+<instance name="I5"/>
+</instance_header>
+<instance_header master="OR">
+<instance name="I2"/>
+</instance_header>
+</master_instances>
+</module>

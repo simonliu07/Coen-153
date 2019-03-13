@@ -1,0 +1,11 @@
+#! /bin/sh
+
+echo $HOSTNAME | grep linux60514 > /dev/null 2>&1 
+if [ $? == 0  ]
+then 
+kill 16453 
+else 
+rsh linux60514 kill 16453 
+ sleep 10 
+rsh linux60514 kill -9 16453 
+fi

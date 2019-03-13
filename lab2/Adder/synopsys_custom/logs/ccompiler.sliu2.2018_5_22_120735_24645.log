@@ -1,0 +1,27 @@
+[12:07:36.92] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue May 22 12:07:35 2018
+              /c Host: linux60514
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2/Adder
+              /c 
+[12:07:40.33] /r giShowFrameTabs true
+[12:07:40.33] /r giWindowId 1
+[12:07:40.33] /r giWindowGeometry 1040x800
+[12:07:43.11] /i exit
+[12:07:43.15] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[12:07:43.45] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x156+750+522
+[12:07:44.39] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[12:07:44.57] /o Shutdown time: Tue May 22 12:07:44 2018
+[12:07:44.57] /o Elapsed session real time: 0.13 minutes
+[12:07:44.57] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/logs/ccompiler.sliu2.2018_5_22_120735_24645.log

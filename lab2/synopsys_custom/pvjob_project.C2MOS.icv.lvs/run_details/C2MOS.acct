@@ -1,0 +1,8 @@
+C2MOS
+	Cell Level Device Counts
+		NMOS[n12] = 10
+		PMOS[p12] = 10
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = C2MOS  *******
+		NMOS[n12] = 10
+		PMOS[p12] = 10

@@ -1,0 +1,190 @@
+[11:57:19.37] /o 
+              /c                                 Custom Compiler 
+              /c 
+              /c               Version M-2017.03-SP1-1 for linux64 - Jun 29, 2017 
+              /c 
+              /c                     Copyright (c) 2004 - 2017 Synopsys, Inc.
+              /c    This software and the associated documentation are proprietary to Synopsys,
+              /c  Inc. This software may only be used in accordance with the terms and conditions
+              /c  of a written license agreement with Synopsys, Inc. All other use, reproduction,
+              /c             or distribution of this software is strictly prohibited.
+              /c 
+              /c Build  (OPT) Config 3718339 compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Invocation: /DCNFS/applications/synopsys/2017/app/customcompiler/M-2017.03-SP1-1/linux64/platform/bin/custom_compiler
+              /c Execution time: Tue Jun  5 11:57:17 2018
+              /c Host: linux60514
+              /c Working directory: /DCNFS/users/student/sliu2/coen153/lab2/Adder
+              /c 
+[11:57:22.40] /w Warning: In file /DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs: Syntax error in file '/DCNFS/users/student/sliu2/coen153/lab2/Adder/lib.defs' at line '11' : ';' (DATA_MANAGEMENT-014)
+[11:57:23.01] /r giShowFrameTabs true
+[11:57:23.01] /r giWindowId 1
+[11:57:23.01] /r giWindowGeometry 1040x800
+[11:57:26.17] /# gi::pressButton {/scroll/scrollArea/scrollAreaInnerWidget/recentDesigns/deOpenlab6HalfAdderlayout} -in [gi::getWindows 1]
+[11:57:26.18] /# 
+[11:57:26.18] /i de::open lab6/Half_Adder/layout
+[11:57:26.19] /m Information: License 'Basic' checked out. (LICENSE-003)
+[11:57:26.23] /o 	############################################
+[11:57:26.23] /o 	        Synopsys Generic 90nm iPDK          
+[11:57:26.23] /o 	--------------------------------------------
+[11:57:26.23] /o 	Release Date .............. : 11-May-2016    
+[11:57:26.23] /o 	============================================
+[11:57:26.23] /o 	        Recommended Tool Versions           
+[11:57:26.23] /o 	--------------------------------------------
+[11:57:26.23] /o 	Custom Designer ........... : J-2014.12-2    
+[11:57:26.23] /o 	IC Validator .............. : K-2015.12   
+[11:57:26.23] /o 	StarRC..................... : K-2015.12  
+[11:57:26.23] /o 	--------------------------------------------
+[11:57:26.23] /o 	############################################
+[11:57:26.23] /o 
+[11:57:26.25] /o SAED PDK 90: Loaded callbacks
+[11:57:26.26] /o SAED PDK 90: Loaded display resources
+[11:57:26.36] /r giWindowId 2
+[11:57:26.36] /r giWindowGeometry 1632x1035
+[11:57:26.43] /# de::setActiveLPP [de::getLPPs "NWELL drawing" -from [db::getAttr editDesign -of [de::getContexts -window 2]]]
+[11:57:26.61] /o oa:0x241a97d0
+[11:57:26.76] /# gi::executeAction deSelectActive -in [gi::getWindows 2]
+[11:57:26.76] /i de::deselectAll [db::getNext [de::getContexts -window 2]]
+[11:57:26.76] /i de::select [de::getActiveFigure [gi::getWindows 2] -point {1.529 1.074} -index 0 -intent none]
+[11:57:26.76] /o oa:0x24b86f90
+[11:57:28.96] /# gi::executeAction leDisplayAllLevels -in [gi::getWindows 2]
+[11:57:28.96] /i db::setPrefValue leStopLevel -value 32 -scope [db::getNext [de::getContexts -window 2]]
+[11:57:29.36] /o oa:0x24b3e900
+[11:57:31.28] /i db::setAttr shown -of [gi::getAssistants leObjectLayerPanel -from [gi::getWindows 2]] -value false
+[11:57:32.48] /# gi::executeAction deFitView -in [gi::getWindows 2]
+[11:57:32.48] /i de::fit -window 2 -fitView true
+[11:57:32.48] /o {-0.635 -0.304} {7.762 5.23}
+[11:57:34.54] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:57:34.54] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {0.253 3.907}
+[11:57:34.54] /o {-0.191 1.802} {4.007 4.568}
+[11:57:35.28] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:57:35.28] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {0.253 3.92}
+[11:57:35.28] /o {0.031 2.861} {2.13 4.244}
+[11:57:36.62] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[11:57:36.62] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {0.295 3.87}
+[11:57:36.62] /o {-0.233 1.852} {3.965 4.618}
+[11:57:41.48] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[11:57:41.48] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {2.584 2.911}
+[11:57:41.48] /o {-3.05 0.792} {5.347 6.326}
+[11:57:42.11] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:57:42.11] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {2.877 3.337}
+[11:57:42.11] /o {-0.086 2.065} {4.112 4.831}
+[11:57:45.24] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[11:57:45.24] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {0.244 3.651}
+[11:57:45.24] /o {-0.417 0.478} {7.98 6.012}
+[11:57:46.00] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:57:46.00] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {0.245 3.651}
+[11:57:46.00] /o {-0.086 2.065} {4.112 4.831}
+[11:57:51.05] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[11:59:22.79] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[11:59:24.88] /i db::setAttr maximized -of [gi::getFrames 1] -value true
+[11:59:25.24] /i db::setAttr geometry -of [gi::getFrames 1] -value 1910x1117+5+53
+[11:59:29.01] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:59:29.01] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {0.077 3.961}
+[11:59:29.01] /o {-0.004 2.4} {3.915 4.396}
+[11:59:29.24] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[11:59:29.24] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {0.077 3.961}
+[11:59:29.24] /o {0.036 3.18} {1.996 4.179}
+[11:59:31.92] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:00:07.83] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:00:08.79] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:00:08.80] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {0.427 3.675}
+[12:00:08.80] /o {-0.354 2.686} {3.565 4.682}
+[12:00:13.88] /# gi::executeAction dePan -in [gi::getWindows 2]
+[12:00:13.88] /i ide::pan 2
+[12:00:14.11] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[12:00:14.11] /i de::startDrag {1.142 3.108} -context [db::getNext [de::getContexts -window 2]]
+[12:00:14.51] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[12:00:14.51] /i de::endDrag {1.142 3.11} -context [db::getNext [de::getContexts -window 2]]
+[12:00:14.51] /r dePanToPoint {2.16 2.455}
+[12:00:15.04] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:00:15.04] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {1.454 2.51}
+[12:00:15.04] /o {-1.054 0.404} {6.786 4.397}
+[12:00:16.67] /# gi::executeAction deStartDrag -in [gi::getWindows 2]
+[12:00:16.68] /i de::startDrag {3.559 3.464} -context [db::getNext [de::getContexts -window 2]]
+[12:00:17.00] /# gi::executeAction deEndDrag -in [gi::getWindows 2]
+[12:00:17.00] /i de::endDrag {3.555 3.46} -context [db::getNext [de::getContexts -window 2]]
+[12:00:17.00] /r dePanToPoint {5.394 3.33}
+[12:00:17.29] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[12:00:17.29] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {3.873 3.644}
+[12:00:17.29] /o {2.674 2.489} {6.594 4.485}
+[12:00:17.50] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[12:00:17.50] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {3.873 3.644}
+[12:00:17.50] /o {3.273 3.066} {5.233 4.065}
+[12:00:18.33] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:00:18.33] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {3.778 3.605}
+[12:00:18.33] /o {2.769 2.528} {6.689 4.524}
+[12:00:20.37] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:24:35.14] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:24:36.58] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:24:36.58] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {4.286 4.127}
+[12:24:36.58] /o {1.251 0.929} {9.091 4.922}
+[12:24:36.64] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:24:36.64] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {4.286 4.126}
+[12:24:36.64] /o {-1.783 -2.269} {13.896 5.717}
+[12:24:37.06] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[12:24:37.06] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {4.16 4.085}
+[12:24:37.06] /o {1.188 0.908} {9.028 4.901}
+[12:24:39.44] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:39.70] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:39.77] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:24:42.33] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:24:42.34] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:42.49] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:44.40] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:44.59] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:44.64] /# gi::executeAction deCanvasPanWest -in [gi::getWindows 2]
+[12:24:44.64] /i de::pan -window [gi::getWindows 2] -direction W -multiplier 0.5
+[12:24:44.64] /o {-2.733 0.908} {5.106 4.901}
+[12:24:45.26] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:45.41] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:45.47] /# gi::executeAction deCanvasPanEast -in [gi::getWindows 2]
+[12:24:45.47] /i de::pan -window [gi::getWindows 2] -direction E -multiplier 0.5
+[12:24:45.47] /o {1.184 0.908} {9.024 4.901}
+[12:24:45.93] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:46.08] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:46.11] /# gi::executeAction deCanvasPanWest -in [gi::getWindows 2]
+[12:24:46.11] /i de::pan -window [gi::getWindows 2] -direction W -multiplier 0.5
+[12:24:46.11] /o {-2.738 0.908} {5.102 4.901}
+[12:24:47.47] /# gi::executeAction dePan -in [gi::getWindows 2]
+[12:24:47.47] /i ide::pan 2
+[12:24:50.41] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:50.77] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:24:50.85] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:27:03.45] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:27:03.45] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:27:11.96] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:27:12.06] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:35:51.53] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:35:51.53] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:35:52.88] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[12:35:52.88] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {1.774 4.164}
+[12:35:52.88] /o {-0.482 2.536} {3.438 4.533}
+[12:35:57.34] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:35:57.34] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {1.682 4.104}
+[12:35:57.34] /o {-2.646 0.968} {5.194 4.961}
+[12:35:59.59] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:35:59.69] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[12:39:36.30] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[12:39:36.30] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:39:39.88] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:39:40.54] /# gi::executeAction deCanvasZoomOutAtPoint -in [gi::getWindows 2]
+[12:39:40.54] /i de::zoom -window [gi::getWindows 2] -factor 0.5 -center {1.368 2.253}
+[12:39:40.54] /o {-6.659 -0.317} {9.02 7.669}
+[12:39:43.34] /# gi::executeAction deCanvasZoomInAtPoint -in [gi::getWindows 2]
+[12:39:43.34] /i de::zoom -window [gi::getWindows 2] -factor 2.0 -center {1.394 1.558}
+[12:39:43.34] /o {-2.633 0.621} {5.207 4.614}
+[12:39:56.29] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:39:56.59] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[12:39:56.68] /i db::setAttr iconified -of [gi::getFrames 1] -value true
+[13:50:24.43] /i db::setAttr iconified -of [gi::getFrames 1] -value false
+[13:50:26.95] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[13:50:28.36] /i exit
+[13:50:28.40] /r giDialog gi::setActiveDialog [gi::getDialogs {deExitDialog}]
+[13:50:28.40] /i gi::executeAction deObjectActivation -in [gi::getWindows 2]
+[13:50:28.69] /r giDialog db::setAttr geometry -of [gi::getDialogs {deExitDialog}] -value 420x183+750+508
+[13:50:29.25] /r giDialog gi::pressButton {ok} -in [gi::getDialogs {deExitDialog}]
+[13:50:29.34] /i gi::setActiveWindow 1
+[13:50:29.34] /i gi::setActiveWindow 1 -raise true
+[13:50:29.70] /o Shutdown time: Tue Jun  5 13:50:29 2018
+[13:50:29.70] /o Elapsed session real time: 1 hour 53.16 minutes
+[13:50:29.70] /o Session terminated. Log is at /DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/logs/ccompiler.sliu2.2018_6_5_115717_11492.log

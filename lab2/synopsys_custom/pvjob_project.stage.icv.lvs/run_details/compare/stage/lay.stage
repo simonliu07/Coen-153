@@ -1,0 +1,15 @@
+{NETLIST stage
+{VERSION 2 0 0}
+
+{CELL stage
+    {PORT vdd! CLK1 gnd! CLK2 Output Input }
+    {INST M3=p12 {TYPE MOS} {COORD x=0.750 y=2.400 }{PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN N9=DRN CLK1=GATE Output=SRC vdd!=BULK }}
+    {INST M2=n12 {TYPE MOS} {COORD x=0.350 y=-1.525 }{PROP n="n12" Length=0.1 Width=1.6 }
+	{PIN N8=DRN Input=GATE gnd!=SRC gnd!=BULK }}
+    {INST M4=p12 {TYPE MOS} {COORD x=0.350 y=2.400 }{PROP n="p12" Length=0.1 Width=4.8 }
+	{PIN N9=DRN Input=GATE vdd!=SRC vdd!=BULK }}
+    {INST M1=n12 {TYPE MOS} {COORD x=0.750 y=-1.525 }{PROP n="n12" Length=0.1 Width=1.6 }
+	{PIN N8=DRN CLK2=GATE Output=SRC gnd!=BULK }}
+}
+}

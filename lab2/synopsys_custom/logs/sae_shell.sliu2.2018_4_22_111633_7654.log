@@ -1,0 +1,57 @@
+[11:16:35.49] /m Information: License 'SAE' checked out. (LICENSE-003)
+[11:16:37.37] /o sae_shell Version Custom Compiler M-2017.03-SP1-1
+              /c Build  (OPT) compiled on Thu Jun 29 08:54:37 2017 for RHEL64 6.6
+              /c Execution time: Sun Apr 22 11:16:33 2018
+              /c Host: linux60524
+              /c 
+              /c Copyright © 2004-2017 Synopsys, Inc.
+              /c This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, or distribution of this software is strictly prohibited.
+              /c 
+              /c 
+[11:16:37.47] /o 	############################################
+[11:16:37.47] /o 	        Synopsys Generic 90nm iPDK          
+[11:16:37.47] /o 	--------------------------------------------
+[11:16:37.47] /o 	Release Date .............. : 11-May-2016    
+[11:16:37.47] /o 	============================================
+[11:16:37.47] /o 	        Recommended Tool Versions           
+[11:16:37.47] /o 	--------------------------------------------
+[11:16:37.47] /o 	Custom Designer ........... : J-2014.12-2    
+[11:16:37.47] /o 	IC Validator .............. : K-2015.12   
+[11:16:37.47] /o 	StarRC..................... : K-2015.12  
+[11:16:37.47] /o 	--------------------------------------------
+[11:16:37.47] /o 	############################################
+[11:16:37.47] /o 
+[11:16:37.48] /o SAED PDK 90: Loaded callbacks
+[11:16:37.49] /o SAED PDK 90: Loaded display resources
+[11:16:37.50] /i ::sa::_backgroundSaeShell::signalProcessReady 1524420993
+[11:16:37.51] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::processReady 4
+[11:17:47.72] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:17:47.96] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[11:17:47.96] /m Information: Expression 'v(/Vin)' did not evaluate: No results found.
+[11:17:47.98] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:17:47.98] /o false
+[11:18:59.02] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:18:59.39] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[11:18:59.45] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.4 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:18:59.45] /o false
+[11:24:00.53] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:24:00.57] /i ::sa::_backgroundSaeShell::parentRunning
+[11:24:00.57] /o 1524421440
+[11:24:04.41] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[11:27:01.18] /i ::wf::viewerExited
+[11:28:10.89] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:28:11.14] /m Information: Expression 'v(/Vout)' did not evaluate: No results found.
+[11:28:11.15] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.2 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:28:11.15] /o false
+[11:29:52.28] /i ::sa::_backgroundSaeShell::runScript /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/.bg_measurement_script.tcl sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:29:52.54] /m Information: Started sharing "Custom WaveView ADV" license. (WAVEFORM-110)
+[11:29:52.58] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::scriptFinished 0.3 {} sa::_resultsDatabase::saeShellProcessingCompletedProc testSuiteName saeSession0 testbenchName default resultsDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/results testSuiteDir /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal databaseName /DCNFS/users/student/sliu2/simulation/lab2/testbench_inverter/schematic/HSPICE/nominal/resultsDatabase remoteRun {} testbenchId 1
+[11:29:52.58] /o false
+[11:34:53.56] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::pingBack
+[11:34:53.59] /i ::sa::_backgroundSaeShell::parentRunning
+[11:34:53.59] /o 1524422093
+[11:34:57.56] /m Information: Stopped sharing "Custom WaveView ADV" license. (WAVEFORM-111)
+[11:35:08.40] /i ::wf::viewerExited
+[11:35:15.10] /i ::sa::_backgroundSaeShell::exit
+[11:35:15.10] /o saeInterBGSaeShell:  ::sa::_backgroundSaeShell::childFormallyExiting
+[11:35:16.32] /m Information: License 'SAE' checked in. (LICENSE-004)

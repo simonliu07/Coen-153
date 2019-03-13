@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="project/stage/layout" name="xtDRCLayLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.stage.icv.drc/stage.custom_compiler.gds" name="xtDRCLayStreamFile"/>
+                <pref value="IC Validator" name="xtDRCTool"/>
+        </preferences>
+</file-format>

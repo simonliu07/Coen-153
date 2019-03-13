@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="Full_Adder" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.Full_Adder.icv.lvs/Full_Adder.net" name="xtLVSLayInputNetlist"/>
+                <pref value="lab6/Full_Adder/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.Full_Adder.icv.lvs/Full_Adder.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="Full_Adder" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.Full_Adder.icv.lvs/Full_Adder.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="lab6/Full_Adder/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/Adder/synopsys_custom/pvjob_lab6.Full_Adder.icv.lvs/Full_Adder.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

@@ -1,0 +1,8 @@
+stage
+	Cell Level Device Counts
+		NMOS[n12] = 2
+		PMOS[p12] = 2
+
+********  DEVICE EXTRACTION STATS    TOPBLOCK = stage  *******
+		NMOS[n12] = 2
+		PMOS[p12] = 2

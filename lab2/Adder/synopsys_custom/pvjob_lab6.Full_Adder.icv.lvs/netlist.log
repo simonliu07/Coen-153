@@ -1,0 +1,8 @@
+[14:52:12.95] /m Information: "Starting netlisting for design "lab6/Full_Adder/schematic"..."
+               (NETLISTING-010)
+[14:52:13.03] /m Information: 
+[14:52:13.03] /o Checking "lab6/Full_Adder/schematic"
+[14:52:13.03] /o No rule violations found in "lab6/Full_Adder/schematic"
+[14:52:13.03] /o No Design Integrity rule violations found in "lab6/Full_Adder/schematic"
+[14:52:13.40] /m Information: "Netlisting design "lab6/Full_Adder/schematic" finished
+               successfully." (NETLISTING-012)

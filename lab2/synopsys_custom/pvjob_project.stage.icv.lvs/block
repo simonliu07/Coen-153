@@ -1,0 +1,10 @@
+* XREF SPICE	Tue Jun  5 12:21:41 2018	stage
+* icv_netlist Version RHEL64 M-2017.06-1.3706802 2017/06/19
+
+* Top of hierarchy  cell=stage
+.subckt stage Input CLK2 CLK1 Output vdd! gnd!
+M_MM2 Output CLK2 net13 gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_MM3 net13 Input gnd! gnd! n12  l=1e-07 w=1.6e-06 nf=1
+M_MM1 Output CLK1 net5 vdd! p12  l=1e-07 w=4.8e-06 nf=1
+M_MM0 net5 Input vdd! vdd! p12  l=1e-07 w=4.8e-06 nf=1
+.ends stage

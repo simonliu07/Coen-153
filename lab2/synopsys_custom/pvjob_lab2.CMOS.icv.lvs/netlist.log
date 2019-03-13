@@ -1,0 +1,5 @@
+[12:15:35.30] /m Information: "Starting netlisting for design "lab2/CMOS/schematic"..."
+               (NETLISTING-010)
+[12:15:35.35] /o No Design Integrity rule violations found in "lab2/CMOS/schematic"
+[12:15:35.53] /m Information: "Netlisting design "lab2/CMOS/schematic" finished successfully."
+               (NETLISTING-012)

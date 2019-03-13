@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- created by Custom Compiler build#  ,on -->
+<file-format version="1.0" name="synopsysPrefs">
+        <preferences>
+                <pref value="true" name="xtLVSCalibreUseSVRFTranscript"/>
+                <pref value="C2MOS" name="xtLVSLayCell"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.net" name="xtLVSLayInputNetlist"/>
+                <pref value="project/C2MOS/layout" name="xtLVSLayLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.custom_compiler.gds" name="xtLVSLayStreamFile"/>
+                <pref value="C2MOS" name="xtLVSSchCell"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.custom_compiler.sp" name="xtLVSSchInputNetlist"/>
+                <pref value="CDL" name="xtLVSSchInputNetlistFormat"/>
+                <pref value="project/C2MOS/schematic" name="xtLVSSchLCV"/>
+                <pref value="/DCNFS/users/student/sliu2/coen153/lab2/synopsys_custom/pvjob_project.C2MOS.icv.lvs/C2MOS.custom_compiler.sp" name="xtLVSSchOutputNetlist"/>
+                <pref value="IC Validator" name="xtLVSTool"/>
+        </preferences>
+</file-format>

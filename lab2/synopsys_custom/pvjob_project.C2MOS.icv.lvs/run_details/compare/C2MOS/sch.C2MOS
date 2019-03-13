@@ -1,0 +1,47 @@
+{NETLIST C2MOS
+{VERSION 2 0 0}
+
+{CELL C2MOS
+    {PORT Qs CLKb vdd! gnd! CLK D }
+    {INST XI8/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN Qs=DRN net50=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI9/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN net51=DRN net53=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI8/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN Qs=DRN net50=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI9/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN net51=DRN net53=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM3=n12 {TYPE MOS} {PROP n="stage/n12" Length=0.1 Width=1.6 }
+	{PIN XI1/net13=DRN net51=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI1/MM0=p12 {TYPE MOS} {PROP n="stage/p12" Length=0.1 Width=4.8 }
+	{PIN XI1/net5=DRN net51=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM3=n12 {TYPE MOS} {PROP n="stage/n12" Length=0.1 Width=1.6 }
+	{PIN XI0/net13=DRN D=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI0/MM0=p12 {TYPE MOS} {PROP n="stage/p12" Length=0.1 Width=4.8 }
+	{PIN XI0/net5=DRN D=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM1=p12 {TYPE MOS} {PROP n="stage/p12" Length=0.1 Width=4.8 }
+	{PIN net54=DRN CLKb=GATE XI1/net5=SRC vdd!=BULK }}
+    {INST XI3/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN Qm=DRN net53=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI3/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN Qm=DRN net53=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI4/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN net54=DRN net50=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI4/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN net54=DRN net50=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI5/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN net50=DRN net54=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI5/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN net50=DRN net54=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI0/MM1=p12 {TYPE MOS} {PROP n="stage/p12" Length=0.1 Width=4.8 }
+	{PIN Qm=DRN CLK=GATE XI0/net5=SRC vdd!=BULK }}
+    {INST XI2/MM0=n12 {TYPE MOS} {PROP n="CMOS/n12" Length=0.1 Width=0.4 }
+	{PIN net53=DRN Qm=GATE gnd!=SRC gnd!=BULK }}
+    {INST XI2/MM1=p12 {TYPE MOS} {PROP n="CMOS/p12" Length=0.1 Width=1.2 }
+	{PIN net53=DRN Qm=GATE vdd!=SRC vdd!=BULK }}
+    {INST XI1/MM2=n12 {TYPE MOS} {PROP n="stage/n12" Length=0.1 Width=1.6 }
+	{PIN net54=DRN CLK=GATE XI1/net13=SRC gnd!=BULK }}
+    {INST XI0/MM2=n12 {TYPE MOS} {PROP n="stage/n12" Length=0.1 Width=1.6 }
+	{PIN Qm=DRN CLKb=GATE XI0/net13=SRC gnd!=BULK }}
+}
+}
